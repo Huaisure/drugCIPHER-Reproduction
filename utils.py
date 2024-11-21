@@ -33,50 +33,35 @@ def drug_target_interaction(drug_targets, target):
             res += np.exp(-(length**2))
     return res
 
+def cal_code_ts(code1, code2, level1, level2):
+    # find the longest common element of the levels
+    common_level = set(level1).intersection(set(level2))
+    if common_level:
+        p_mica = counts_dict[list(common_level)[0]]
+    else:
+        p_mica = 0
+    p_c1 = 0 if code1 not in counts_dict else counts_dict[code1]
+    p_c2 = 0 if code2 not in counts_dict else counts_dict[code2]
+    if p_c1 == 0 or p_c2 == 0 or p_mica == 0:
+        return 0  # If any probability is 0, return similarity as 0 (no shared information)
 
-def drugTS(drug_atc_list, drug_level_list):
-    """
-    return: a score that represents the interaction between the two drugs
-    """
+    # Compute similarity using the provided formula
+    similarity = (2 * math.log(p_mica + 1e-6)) / (
+        math.log(p_c1 + 1e-6) + math.log(p_c2 + 1e-6)
+    )
+    return similarity
 
+def cal_ts(code_l1, code_l2, level_l1, level_l2):
+    ts = 0
+    for idx1, code1 in enumerate(code_l1):
+        for idx2, code2 in enumerate(code_l2):
+            ts = max(cal_code_ts(code1, code2, level_l1[idx1], level_l2[idx2]), ts)
+    return ts
 
-    def cal_code_ts(code1, code2, level1, level2):
-        # find the longest common element of the levels
-        common_level = set(level1).intersection(set(level2))
-        if common_level:
-            p_mica = counts_dict[list(common_level)[0]]
-        else:
-            p_mica = 0
-        p_c1 = counts_dict[code1]
-        p_c2 = counts_dict[code2]
-        if p_c1 == 0 or p_c2 == 0 or p_mica == 0:
-            return 0  # If any probability is 0, return similarity as 0 (no shared information)
-
-        # Compute similarity using the provided formula
-        similarity = (2 * math.log(p_mica + 1e-6)) / (
-            math.log(p_c1 + 1e-6) + math.log(p_c2 + 1e-6)
-        )
-        return similarity
-
-    def cal_ts(code_l1, code_l2, level_l1, level_l2):
-        ts = 0
-        print(code_l1, code_l2, level_l1, level_l2)
-        for idx1, code1 in enumerate(code_l1):
-            for idx2, code2 in enumerate(code_l2):
-                print(code1, code2, level_l1, level_l2)
-                ts = max(cal_code_ts(code1, code2, level_l1[idx1], level_l2[idx2]), ts)
-
-        return ts
-
+def cal_test_ts(train, test):
     return [
-        cal_ts(
-            drug_atc_list,
-            df_atc.iloc[idx].dg_atc_codes,
-            drug_level_list,
-            df_atc.iloc[idx].dg_atc_levels,
-        )
-        for idx in range(len(df_atc))
-    ]
+        [cal_ts(train["dg_atc_codes"].iloc[i], test["dg_atc_codes"].iloc[j], train["dg_atc_levels"].iloc[i], test["dg_atc_levels"].iloc[j]) for i in range(len(train))]
+    for j in range(len(test))]
 
 
 def target_to_drugs_interaction(target):
