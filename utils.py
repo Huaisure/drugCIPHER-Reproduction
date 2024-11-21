@@ -2,7 +2,8 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 import json
-
+from collections import Counter
+import math
 
 def shortest_path_length(ppi_network, ensp1, ensp2):
     """
@@ -38,22 +39,6 @@ def drugTS(drug_atc_list, drug_level_list):
     return: a score that represents the interaction between the two drugs
     """
 
-    from collections import Counter
-
-    # df_atc = df[['dg_id', 'dg_name','dg_atc_codes','dg_atc_levels']]
-    df_atc = pd.read_csv("data_atc.csv")
-    # for rows with same dg_id, keep only one row
-    df_atc = df_atc.drop_duplicates(subset="dg_id")
-    df_atc = df_atc[df_atc["dg_atc_codes"].apply(lambda x: x != "[]")].reset_index(
-        drop=True
-    )
-    df_atc["dg_atc_codes"] = df_atc["dg_atc_codes"].apply(lambda x: eval(x))
-    df_atc["dg_atc_levels"] = df_atc["dg_atc_levels"].apply(lambda x: eval(x))
-    flatten_atc = [j for i in df_atc["dg_atc_codes"] for j in i] + [
-        k for i in df_atc["dg_atc_levels"] for j in i for k in j
-    ]
-    counts_dict = dict(Counter(flatten_atc))
-    import math
 
     def cal_code_ts(code1, code2, level1, level2):
         # find the longest common element of the levels
@@ -75,6 +60,7 @@ def drugTS(drug_atc_list, drug_level_list):
 
     def cal_ts(code_l1, code_l2, level_l1, level_l2):
         ts = 0
+        print(code_l1, code_l2, level_l1, level_l2)
         for idx1, code1 in enumerate(code_l1):
             for idx2, code2 in enumerate(code_l2):
                 print(code1, code2, level_l1, level_l2)
