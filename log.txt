@@ -1,0 +1,527 @@
+Target: ENSP00000266970
+=====================================
+Drug: Diclofenamide
+Score: 0.10441878097788425
+=====================================
+Drug: Artenimol
+Score: 0.10441878097788425
+=====================================
+Drug: Vincristine
+Score: 0.10441878097788425
+=====================================
+Drug: Metamfetamine
+Score: 0.10441878097788425
+=====================================
+Drug: Alverine
+Score: 0.10441878097788425
+=====================================
+Drug: Abatacept
+Score: 0.10441878097788425
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0.10441878097788425
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0.10441878097788425
+=====================================
+Drug: Auranofin
+Score: 0.10441878097788425
+=====================================
+Drug: Toloxatone
+Score: 0.10441878097788425
+Target: ENSP00000405330
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000308541
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000380247
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000354859
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000437737
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000308720
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000266970
+=====================================
+Drug: Diclofenamide
+Score: 0.10036483350118978
+=====================================
+Drug: Artenimol
+Score: 0.10036483350118978
+=====================================
+Drug: Vincristine
+Score: 0.10036483350118978
+=====================================
+Drug: Metamfetamine
+Score: 0.10036483350118978
+=====================================
+Drug: Alverine
+Score: 0.10036483350118978
+=====================================
+Drug: Abatacept
+Score: 0.10036483350118978
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0.10036483350118978
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0.10036483350118978
+=====================================
+Drug: Auranofin
+Score: 0.10036483350118978
+=====================================
+Drug: Toloxatone
+Score: 0.10036483350118978
+Target: ENSP00000405330
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000308541
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000380247
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000354859
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000437737
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000308720
+=====================================
+Drug: Diclofenamide
+Score: 0
+=====================================
+Drug: Artenimol
+Score: 0
+=====================================
+Drug: Vincristine
+Score: 0
+=====================================
+Drug: Metamfetamine
+Score: 0
+=====================================
+Drug: Alverine
+Score: 0
+=====================================
+Drug: Abatacept
+Score: 0
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0
+=====================================
+Drug: Auranofin
+Score: 0
+=====================================
+Drug: Toloxatone
+Score: 0
+Target: ENSP00000266970
+=====================================
+Drug: Diclofenamide
+Score: 0.10123664259712639
+=====================================
+Drug: Artenimol
+Score: 0.10123664259712639
+=====================================
+Drug: Vincristine
+Score: 0.10123664259712639
+=====================================
+Drug: Metamfetamine
+Score: 0.10123664259712639
+=====================================
+Drug: Alverine
+Score: 0.10123664259712639
+=====================================
+Drug: Abatacept
+Score: 0.10123664259712639
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0.10123664259712639
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0.10123664259712639
+=====================================
+Drug: Auranofin
+Score: 0.10123664259712639
+=====================================
+Drug: Toloxatone
+Score: 0.10123664259712639
+Target: ENSP00000266970
+=====================================
+Drug: Diclofenamide
+Score: 0.10534651981239047
+=====================================
+Drug: Artenimol
+Score: 0.10534651981239047
+=====================================
+Drug: Vincristine
+Score: 0.10534651981239047
+=====================================
+Drug: Metamfetamine
+Score: 0.10534651981239047
+=====================================
+Drug: Alverine
+Score: 0.10534651981239047
+=====================================
+Drug: Abatacept
+Score: 0.10534651981239047
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0.10534651981239047
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0.10534651981239047
+=====================================
+Drug: Auranofin
+Score: 0.10534651981239047
+=====================================
+Drug: Toloxatone
+Score: 0.10534651981239047
+Target: ENSP00000266970
+=====================================
+Drug: Diclofenamide
+Score: 0.10441878097788425
+=====================================
+Drug: Artenimol
+Score: 0.10441878097788425
+=====================================
+Drug: Vincristine
+Score: 0.10441878097788425
+=====================================
+Drug: Metamfetamine
+Score: 0.10441878097788425
+=====================================
+Drug: Alverine
+Score: 0.10441878097788425
+=====================================
+Drug: Abatacept
+Score: 0.10441878097788425
+=====================================
+Drug: Ropeginterferon alfa-2b
+Score: 0.10441878097788425
+=====================================
+Drug: Avalglucosidase alfa
+Score: 0.10441878097788425
+=====================================
+Drug: Auranofin
+Score: 0.10441878097788425
+=====================================
+Drug: Toloxatone
+Score: 0.10441878097788425
