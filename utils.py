@@ -126,3 +126,11 @@ def cal_test_closeness(train, target, ppi):
     with open("shortest_path_length_dict.json", "w") as f:
         json.dump(shortest_path_length_dict, f, indent=2)
     return res
+
+# Function to load a molecule from its .mol file and compute fingerprints
+def load_fingerprint(dg_id, mol_dir="./kegg/mol"):
+    mol_path = os.path.join(mol_dir, f"{dg_id}.mol")
+    mol = Chem.MolFromMolFile(mol_path)
+    if mol is None:
+        raise ValueError(f"Error loading {mol_path}")
+    return AllChem.GetMorganFingerprintAsBitVect(mol, radius=2, nBits=2048)
