@@ -1,0 +1,818 @@
+dg_id,dg_name,dg_atc_codes,dg_atc_levels,kegg_cid
+DB00007,Leuprolide,"['L02AE51', 'L02AE02']","[['L02AE', 'L02A', 'L02', 'L'], ['L02AE', 'L02A', 'L02', 'L']]",C07612
+DB00017,Salmon calcitonin,['H05BA01'],"[['H05BA', 'H05B', 'H05', 'H']]",C06865
+DB00035,Desmopressin,['H01BA02'],"[['H01BA', 'H01B', 'H01', 'H']]",C06944
+DB00091,Cyclosporine,"['L04AD01', 'S01XA18']","[['L04AD', 'L04A', 'L04', 'L'], ['S01XA', 'S01X', 'S01', 'S']]",C05086
+DB00104,Octreotide,['H01CB02'],"[['H01CB', 'H01C', 'H01', 'H']]",C07306
+DB00107,Oxytocin,"['G02AC01', 'H01BB02']","[['G02AC', 'G02A', 'G02', 'G'], ['H01BB', 'H01B', 'H01', 'H']]",C00746
+DB00114,Pyridoxal phosphate,['A11HA06'],"[['A11HA', 'A11H', 'A11', 'A']]",C00018
+DB00115,Cyanocobalamin,"['B03BA01', 'B03AE01', 'B03BA51']","[['B03BA', 'B03B', 'B03', 'B'], ['B03AE', 'B03A', 'B03', 'B'], ['B03BA', 'B03B', 'B03', 'B']]",C02823
+DB00118,Ademetionine,['A16AA02'],"[['A16AA', 'A16A', 'A16', 'A']]",C00019
+DB00121,Biotin,['A11HA05'],"[['A11HA', 'A11H', 'A11', 'A']]",C00120
+DB00123,Lysine,"['V03AF11', 'B05XB03']","[['V03AF', 'V03A', 'V03', 'V'], ['B05XB', 'B05X', 'B05', 'B']]",C00047
+DB00125,Arginine,"['V03AF11', 'B05XB01']","[['V03AF', 'V03A', 'V03', 'V'], ['B05XB', 'B05X', 'B05', 'B']]",C00062
+DB00126,Ascorbic acid,"['G01AD03', 'A11GA01', 'A11GB01', 'S01XA15']","[['G01AD', 'G01A', 'G01', 'G'], ['A11GA', 'A11G', 'A11', 'A'], ['A11GB', 'A11G', 'A11', 'A'], ['S01XA', 'S01X', 'S01', 'S']]",C00072
+DB00129,Ornithine,['A05BA06'],"[['A05BA', 'A05B', 'A05', 'A']]",C00077
+DB00130,L-Glutamine,['A16AA03'],"[['A16AA', 'A16A', 'A16', 'A']]",C00064
+DB00134,Methionine,['V03AB26'],"[['V03AB', 'V03A', 'V03', 'V']]",C00073
+DB00136,Calcitriol,"['D05AX03', 'A11CC04']","[['D05AX', 'D05A', 'D05', 'D'], ['A11CC', 'A11C', 'A11', 'A']]",C01673
+DB00140,Riboflavin,"['A11HA04', 'S01XA26']","[['A11HA', 'A11H', 'A11', 'A'], ['S01XA', 'S01X', 'S01', 'S']]",C00255
+DB00142,Glutamic acid,['A09AB01'],"[['A09AB', 'A09A', 'A09', 'A']]",C00025
+DB00143,Glutathione,['V03AB32'],"[['V03AB', 'V03A', 'V03', 'V']]",C02471
+DB00145,Glycine,['B05CX03'],"[['B05CX', 'B05C', 'B05', 'B']]",C00037
+DB00146,Calcifediol,"['A11CC06', 'H05BX05']","[['A11CC', 'A11C', 'A11', 'A'], ['H05BX', 'H05B', 'H05', 'H']]",C01561
+DB00150,Tryptophan,['N06AX02'],"[['N06AX', 'N06A', 'N06', 'N']]",C00078
+DB00152,Thiamine,['A11DA01'],"[['A11DA', 'A11D', 'A11', 'A']]",C00378
+DB00153,Ergocalciferol,['A11CC01'],"[['A11CC', 'A11C', 'A11', 'A']]",C05441
+DB00158,Folic acid,"['B03AE02', 'B03AD04', 'V04CX02', 'B03AD01', 'B03BB51', 'B03AD03', 'B03BB01', 'B03AE01', 'B03AD05', 'B03AD02']","[['B03AE', 'B03A', 'B03', 'B'], ['B03AD', 'B03A', 'B03', 'B'], ['V04CX', 'V04C', 'V04', 'V'], ['B03AD', 'B03A', 'B03', 'B'], ['B03BB', 'B03B', 'B03', 'B'], ['B03AD', 'B03A', 'B03', 'B'], ['B03BB', 'B03B', 'B03', 'B'], ['B03AE', 'B03A', 'B03', 'B'], ['B03AD', 'B03A', 'B03', 'B'], ['B03AD', 'B03A', 'B03', 'B']]",C00504
+DB00162,Vitamin A,"['S01XA02', 'V04CB01', 'D10AD02', 'R01AX02', 'A11CA01']","[['S01XA', 'S01X', 'S01', 'S'], ['V04CB', 'V04C', 'V04', 'V'], ['D10AD', 'D10A', 'D10', 'D'], ['R01AX', 'R01A', 'R01', 'R'], ['A11CA', 'A11C', 'A11', 'A']]",C17276
+DB00165,Pyridoxine,"['J04AM08', 'A11HA02']","[['J04AM', 'J04A', 'J04', 'J'], ['A11HA', 'A11H', 'A11', 'A']]",C00314
+DB00166,Lipoic acid,['A16AX01'],"[['A16AX', 'A16A', 'A16', 'A']]",C16241
+DB00169,Cholecalciferol,"['M05BB09', 'M05BX53', 'M05BB07', 'M05BB08', 'A11CC55', 'M05BB05', 'A11CC05', 'M05BB03', 'M05BB04']","[['M05BB', 'M05B', 'M05', 'M'], ['M05BX', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M'], ['A11CC', 'A11C', 'A11', 'A'], ['M05BB', 'M05B', 'M05', 'M'], ['A11CC', 'A11C', 'A11', 'A'], ['M05BB', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M']]",C05443
+DB00170,Menadione,['B02BA02'],"[['B02BA', 'B02B', 'B02', 'B']]",C05377
+DB00175,Pravastatin,"['C10AA03', 'C10BA11', 'C10BA03', 'C10BA12', 'C10BX02']","[['C10AA', 'C10A', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C']]",C01844
+DB00176,Fluvoxamine,['N06AB08'],"[['N06AB', 'N06A', 'N06', 'N']]",C07571
+DB00179,Masoprocol,['L01XX10'],"[['L01XX', 'L01X', 'L01', 'L']]",C10719
+DB00180,Flunisolide,"['R01AD04', 'R03BA03']","[['R01AD', 'R01A', 'R01', 'R'], ['R03BA', 'R03B', 'R03', 'R']]",C07005
+DB00182,Amphetamine,['N06BA01'],"[['N06BA', 'N06B', 'N06', 'N']]",C07514
+DB00184,Nicotine,['N07BA01'],"[['N07BA', 'N07B', 'N07', 'N']]",C00745
+DB00187,Esmolol,['C07AB09'],"[['C07AB', 'C07A', 'C07', 'C']]",C06980
+DB00189,Ethchlorvynol,['N05CM08'],"[['N05CM', 'N05C', 'N05', 'N']]",C07833
+DB00191,Phentermine,"['A08AA01', 'A08AA51']","[['A08AA', 'A08A', 'A08', 'A'], ['A08AA', 'A08A', 'A08', 'A']]",C07438
+DB00193,Tramadol,"['N02AJ16', 'N02AJ13', 'N02AJ14', 'N02AX02']","[['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AX', 'N02A', 'N02', 'N']]",C07153
+DB00195,Betaxolol,"['S01ED02', 'C07AB05', 'S01ED52']","[['S01ED', 'S01E', 'S01', 'S'], ['C07AB', 'C07A', 'C07', 'C'], ['S01ED', 'S01E', 'S01', 'S']]",C06849
+DB00198,Oseltamivir,['J05AH02'],"[['J05AH', 'J05A', 'J05', 'J']]",C08092
+DB00199,Erythromycin,"['J01FA01', 'D10AF02', 'S01AA17', 'D10AF52']","[['J01FA', 'J01F', 'J01', 'J'], ['D10AF', 'D10A', 'D10', 'D'], ['S01AA', 'S01A', 'S01', 'S'], ['D10AF', 'D10A', 'D10', 'D']]",C01912
+DB00200,Hydroxocobalamin,"['B03BA53', 'V03AB33', 'B03BA03']","[['B03BA', 'B03B', 'B03', 'B'], ['V03AB', 'V03A', 'V03', 'V'], ['B03BA', 'B03B', 'B03', 'B']]",C08230
+DB00201,Caffeine,"['D11AX26', 'R03DA20', 'V04CG30', 'N06BC01']","[['D11AX', 'D11A', 'D11', 'D'], ['R03DA', 'R03D', 'R03', 'R'], ['V04CG', 'V04C', 'V04', 'V'], ['N06BC', 'N06B', 'N06', 'N']]",C07481
+DB00202,Succinylcholine,['M03AB01'],"[['M03AB', 'M03A', 'M03', 'M']]",C07546
+DB00203,Sildenafil,"['G01AE10', 'G04BE03']","[['G01AE', 'G01A', 'G01', 'G'], ['G04BE', 'G04B', 'G04', 'G']]",C07259
+DB00204,Dofetilide,['C01BD04'],"[['C01BD', 'C01B', 'C01', 'C']]",C07751
+DB00205,Pyrimethamine,"['P01BF09', 'P01BD01', 'P01BD51', 'P01BF04']","[['P01BF', 'P01B', 'P01', 'P'], ['P01BD', 'P01B', 'P01', 'P'], ['P01BD', 'P01B', 'P01', 'P'], ['P01BF', 'P01B', 'P01', 'P']]",C07391
+DB00206,Reserpine,"['C02LA51', 'C02AA02', 'C02LA01', 'C02LA71', 'C02AA52']","[['C02LA', 'C02L', 'C02', 'C'], ['C02AA', 'C02A', 'C02', 'C'], ['C02LA', 'C02L', 'C02', 'C'], ['C02LA', 'C02L', 'C02', 'C'], ['C02AA', 'C02A', 'C02', 'C']]",C06539
+DB00207,Azithromycin,"['J01RA07', 'S01AA26', 'J01FA10', 'J01RA16']","[['J01RA', 'J01R', 'J01', 'J'], ['S01AA', 'S01A', 'S01', 'S'], ['J01FA', 'J01F', 'J01', 'J'], ['J01RA', 'J01R', 'J01', 'J']]",C06838
+DB00208,Ticlopidine,['B01AC05'],"[['B01AC', 'B01A', 'B01', 'B']]",C07140
+DB00211,Midodrine,['C01CA17'],"[['C01CA', 'C01C', 'C01', 'C']]",C07890
+DB00212,Remikiren,['C09XA01'],"[['C09XA', 'C09X', 'C09', 'C']]",C07465
+DB00213,Pantoprazole,"['A02BD04', 'A02BD11', 'A02BC02']","[['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BC', 'A02B', 'A02', 'A']]",C11806
+DB00215,Citalopram,['N06AB04'],"[['N06AB', 'N06A', 'N06', 'N']]",C07572
+DB00218,Moxifloxacin,"['S01AE07', 'J01MA14']","[['S01AE', 'S01A', 'S01', 'S'], ['J01MA', 'J01M', 'J01', 'J']]",C07663
+DB00221,Isoetharine,"['R03CC06', 'R03AC07']","[['R03CC', 'R03C', 'R03', 'R'], ['R03AC', 'R03A', 'R03', 'R']]",C07053
+DB00222,Glimepiride,"['A10BD04', 'A10BB12', 'A10BD06']","[['A10BD', 'A10B', 'A10', 'A'], ['A10BB', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A']]",C07669
+DB00227,Lovastatin,"['C10AA02', 'C10BA01']","[['C10AA', 'C10A', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C']]",C07074
+DB00228,Enflurane,['N01AB04'],"[['N01AB', 'N01A', 'N01', 'N']]",C07516
+DB00231,Temazepam,['N05CD07'],"[['N05CD', 'N05C', 'N05', 'N']]",C07125
+DB00232,Methyclothiazide,"['C03AA08', 'C03AB08']","[['C03AA', 'C03A', 'C03', 'C'], ['C03AB', 'C03A', 'C03', 'C']]",C07765
+DB00233,Aminosalicylic acid,"['J04AA02', 'J04AA03', 'J04AA01']","[['J04AA', 'J04A', 'J04', 'J'], ['J04AA', 'J04A', 'J04', 'J'], ['J04AA', 'J04A', 'J04', 'J']]",C02518
+DB00235,Milrinone,['C01CE02'],"[['C01CE', 'C01C', 'C01', 'C']]",C07224
+DB00236,Pipobroman,['L01AX02'],"[['L01AX', 'L01A', 'L01', 'L']]",C07362
+DB00237,Butabarbital,['N05CB01'],"[['N05CB', 'N05C', 'N05', 'N']]",C07827
+DB00239,Oxiconazole,"['D01AC11', 'G01AF17', 'G01AF20']","[['D01AC', 'D01A', 'D01', 'D'], ['G01AF', 'G01A', 'G01', 'G'], ['G01AF', 'G01A', 'G01', 'G']]",C08074
+DB00245,Benzatropine,['N04AC01'],"[['N04AC', 'N04A', 'N04', 'N']]",C06846
+DB00246,Ziprasidone,['N05AE04'],"[['N05AE', 'N05A', 'N05', 'N']]",C07568
+DB00247,Methysergide,['N02CA04'],"[['N02CA', 'N02C', 'N02', 'N']]",C07199
+DB00248,Cabergoline,"['N04BC06', 'G02CB03']","[['N04BC', 'N04B', 'N04', 'N'], ['G02CB', 'G02C', 'G02', 'G']]",C08187
+DB00252,Phenytoin,"['N03AB02', 'N03AB52']","[['N03AB', 'N03A', 'N03', 'N'], ['N03AB', 'N03A', 'N03', 'N']]",C07443
+DB00253,Medrysone,['S01BA08'],"[['S01BA', 'S01B', 'S01', 'S']]",C14643
+DB00255,Diethylstilbestrol,"['L02AA04', 'L02AA01', 'G03CC05', 'G03CB02']","[['L02AA', 'L02A', 'L02', 'L'], ['L02AA', 'L02A', 'L02', 'L'], ['G03CC', 'G03C', 'G03', 'G'], ['G03CB', 'G03C', 'G03', 'G']]",C07620
+DB00257,Clotrimazole,"['D01AC01', 'A01AB18', 'G01AF02', 'G01AF20']","[['D01AC', 'D01A', 'D01', 'D'], ['A01AB', 'A01A', 'A01', 'A'], ['G01AF', 'G01A', 'G01', 'G'], ['G01AF', 'G01A', 'G01', 'G']]",C06922
+DB00262,Carmustine,['L01AD01'],"[['L01AD', 'L01A', 'L01', 'L']]",C06873
+DB00264,Metoprolol,"['C07FB02', 'C07FX05', 'C07FX03', 'C07FB13', 'C07AB02', 'C07BB52', 'C07CB02', 'C07BB02']","[['C07FB', 'C07F', 'C07', 'C'], ['C07FX', 'C07F', 'C07', 'C'], ['C07FX', 'C07F', 'C07', 'C'], ['C07FB', 'C07F', 'C07', 'C'], ['C07AB', 'C07A', 'C07', 'C'], ['C07BB', 'C07B', 'C07', 'C'], ['C07CB', 'C07C', 'C07', 'C'], ['C07BB', 'C07B', 'C07', 'C']]",C07202
+DB00266,Dicoumarol,['B01AA01'],"[['B01AA', 'B01A', 'B01', 'B']]",C00796
+DB00268,Ropinirole,['N04BC04'],"[['N04BC', 'N04B', 'N04', 'N']]",C07564
+DB00273,Topiramate,"['A08AA51', 'N03AX11']","[['A08AA', 'A08A', 'A08', 'A'], ['N03AX', 'N03A', 'N03', 'N']]",C07502
+DB00276,Amsacrine,['L01XX01'],"[['L01XX', 'L01X', 'L01', 'L']]",C01553
+DB00277,Theophylline,"['R03DA54', 'R03DA74', 'R03DA20', 'R03DA04', 'R03DB04']","[['R03DA', 'R03D', 'R03', 'R'], ['R03DA', 'R03D', 'R03', 'R'], ['R03DA', 'R03D', 'R03', 'R'], ['R03DA', 'R03D', 'R03', 'R'], ['R03DB', 'R03D', 'R03', 'R']]",C07130
+DB00278,Argatroban,['B01AE03'],"[['B01AE', 'B01A', 'B01', 'B']]",C04931
+DB00279,Liothyronine,"['H03AA03', 'H03AA02']","[['H03AA', 'H03A', 'H03', 'H'], ['H03AA', 'H03A', 'H03', 'H']]",C02465
+DB00280,Disopyramide,['C01BA03'],"[['C01BA', 'C01B', 'C01', 'C']]",C06965
+DB00281,Lidocaine,"['S01HA07', 'D04AB01', 'R02AD02', 'C01BB01', 'S02DA01', 'N01BB52', 'C05AD01', 'N01BB02']","[['S01HA', 'S01H', 'S01', 'S'], ['D04AB', 'D04A', 'D04', 'D'], ['R02AD', 'R02A', 'R02', 'R'], ['C01BB', 'C01B', 'C01', 'C'], ['S02DA', 'S02D', 'S02', 'S'], ['N01BB', 'N01B', 'N01', 'N'], ['C05AD', 'C05A', 'C05', 'C'], ['N01BB', 'N01B', 'N01', 'N']]",C07073
+DB00282,Pamidronic acid,['M05BA03'],"[['M05BA', 'M05B', 'M05', 'M']]",C07395
+DB00283,Clemastine,"['D04AA14', 'R06AA54', 'R06AA04']","[['D04AA', 'D04A', 'D04', 'D'], ['R06AA', 'R06A', 'R06', 'R'], ['R06AA', 'R06A', 'R06', 'R']]",C06913
+DB00284,Acarbose,"['A10BD17', 'A10BF01']","[['A10BD', 'A10B', 'A10', 'A'], ['A10BF', 'A10B', 'A10', 'A']]",C06802
+DB00285,Venlafaxine,['N06AX16'],"[['N06AX', 'N06A', 'N06', 'N']]",C07187
+DB00290,Bleomycin,['L01DC01'],"[['L01DC', 'L01D', 'L01', 'L']]",C06854
+DB00291,Chlorambucil,['L01AA02'],"[['L01AA', 'L01A', 'L01', 'L']]",C06900
+DB00292,Etomidate,['N01AX07'],"[['N01AX', 'N01A', 'N01', 'N']]",C07522
+DB00293,Raltitrexed,['L01BA03'],"[['L01BA', 'L01B', 'L01', 'L']]",C11372
+DB00295,Morphine,"['A07DA52', 'N02AA51', 'N02AA01', 'N02AG01']","[['A07DA', 'A07D', 'A07', 'A'], ['N02AA', 'N02A', 'N02', 'N'], ['N02AA', 'N02A', 'N02', 'N'], ['N02AG', 'N02A', 'N02', 'N']]",C01516
+DB00296,Ropivacaine,['N01BB09'],"[['N01BB', 'N01B', 'N01', 'N']]",C07532
+DB00297,Bupivacaine,"['N01BB01', 'N01BB59', 'N01BB51']","[['N01BB', 'N01B', 'N01', 'N'], ['N01BB', 'N01B', 'N01', 'N'], ['N01BB', 'N01B', 'N01', 'N']]",C07529
+DB00304,Desogestrel,"['G03AC09', 'G03FB10', 'G03AB05', 'G03AA09']","[['G03AC', 'G03A', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G']]",C07629
+DB00305,Mitomycin,['L01DC03'],"[['L01DC', 'L01D', 'L01', 'L']]",C06681
+DB00308,Ibutilide,['C01BD05'],"[['C01BD', 'C01B', 'C01', 'C']]",C07753
+DB00312,Pentobarbital,"['N05CB01', 'N05CA01']","[['N05CB', 'N05C', 'N05', 'N'], ['N05CA', 'N05C', 'N05', 'N']]",C07422
+DB00313,Valproic acid,['N03AG01'],"[['N03AG', 'N03A', 'N03', 'N']]",C07185
+DB00315,Zolmitriptan,['N02CC03'],"[['N02CC', 'N02C', 'N02', 'N']]",C07218
+DB00316,Acetaminophen,"['N02BE71', 'N02BE01', 'N02AJ13', 'N02AJ17', 'N02BE51', 'N02AJ06', 'N02AJ01']","[['N02BE', 'N02B', 'N02', 'N'], ['N02BE', 'N02B', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02BE', 'N02B', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N']]",C06804
+DB00318,Codeine,"['N02AA79', 'R05DA04', 'N02AA59', 'N02AJ08', 'N02AJ06', 'N02AJ07']","[['N02AA', 'N02A', 'N02', 'N'], ['R05DA', 'R05D', 'R05', 'R'], ['N02AA', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N']]",C06174
+DB00320,Dihydroergotamine,"['N02CA51', 'N02CA01']","[['N02CA', 'N02C', 'N02', 'N'], ['N02CA', 'N02C', 'N02', 'N']]",C07798
+DB00321,Amitriptyline,"['N06AA09', 'N06CA01']","[['N06AA', 'N06A', 'N06', 'N'], ['N06CA', 'N06C', 'N06', 'N']]",C06824
+DB00322,Floxuridine,['L01BC09'],"[['L01BC', 'L01B', 'L01', 'L']]",C11736
+DB00323,Tolcapone,['N04BX01'],"[['N04BX', 'N04B', 'N04', 'N']]",C07949
+DB00325,Nitroprusside,['C02DD01'],"[['C02DD', 'C02D', 'C02', 'C']]",C07269
+DB00327,Hydromorphone,"['N02AA53', 'N02AA03', 'N02AG04']","[['N02AA', 'N02A', 'N02', 'N'], ['N02AA', 'N02A', 'N02', 'N'], ['N02AG', 'N02A', 'N02', 'N']]",C07042
+DB00328,Indomethacin,"['S01CC02', 'M01AB51', 'S01BC01', 'M02AA23', 'M01AB01', 'C01EB03']","[['S01CC', 'S01C', 'S01', 'S'], ['M01AB', 'M01A', 'M01', 'M'], ['S01BC', 'S01B', 'S01', 'S'], ['M02AA', 'M02A', 'M02', 'M'], ['M01AB', 'M01A', 'M01', 'M'], ['C01EB', 'C01E', 'C01', 'C']]",C01926
+DB00331,Metformin,"['A10BD23', 'A10BD02', 'A10BD18', 'A10BD11', 'A10BD25', 'A10BA02', 'A10BD22', 'A10BD14', 'A10BD16', 'A10BD17', 'A10BD05', 'A10BD15', 'A10BD07', 'A10BD10', 'A10BD13', 'A10BD26', 'A10BD20', 'A10BD08', 'A10BD27', 'A10BD03']","[['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BA', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A']]",C07151
+DB00332,Ipratropium,"['R03BB01', 'R01AX03', 'R03AL01', 'R03AL02']","[['R03BB', 'R03B', 'R03', 'R'], ['R01AX', 'R01A', 'R01', 'R'], ['R03AL', 'R03A', 'R03', 'R'], ['R03AL', 'R03A', 'R03', 'R']]",C07052
+DB00333,Methadone,"['N07BC02', 'N02AC52']","[['N07BC', 'N07B', 'N07', 'N'], ['N02AC', 'N02A', 'N02', 'N']]",C07163
+DB00334,Olanzapine,"['N05AH53', 'N05AH03']","[['N05AH', 'N05A', 'N05', 'N'], ['N05AH', 'N05A', 'N05', 'N']]",C07322
+DB00338,Omeprazole,"['A02BC01', 'A02BD05', 'A02BD16', 'A02BD01']","[['A02BC', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A']]",C07324
+DB00341,Cetirizine,"['S01GX12', 'R06AE07']","[['S01GX', 'S01G', 'S01', 'S'], ['R06AE', 'R06A', 'R06', 'R']]",C07778
+DB00342,Terfenadine,['R06AX12'],"[['R06AX', 'R06A', 'R06', 'R']]",C07463
+DB00343,Diltiazem,"['C08DB01', 'C05AE03']","[['C08DB', 'C08D', 'C08', 'C'], ['C05AE', 'C05A', 'C05', 'C']]",C06958
+DB00344,Protriptyline,['N06AA11'],"[['N06AA', 'N06A', 'N06', 'N']]",C07408
+DB00351,Megestrol acetate,"['G03FB04', 'G03DB02', 'G03FA08', 'G03AC05', 'L02AB01', 'G03AA04', 'G03AB01']","[['G03FB', 'G03F', 'G03', 'G'], ['G03DB', 'G03D', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03AC', 'G03A', 'G03', 'G'], ['L02AB', 'L02A', 'L02', 'L'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G']]",C08151
+DB00352,Tioguanine,['L01BB03'],"[['L01BB', 'L01B', 'L01', 'L']]",C07648
+DB00354,Buclizine,"['R06AE51', 'R06AE01']","[['R06AE', 'R06A', 'R06', 'R'], ['R06AE', 'R06A', 'R06', 'R']]",C07777
+DB00356,Chlorzoxazone,"['M03BB03', 'M03BB53', 'M03BB73']","[['M03BB', 'M03B', 'M03', 'M'], ['M03BB', 'M03B', 'M03', 'M'], ['M03BB', 'M03B', 'M03', 'M']]",C07931
+DB00357,Aminoglutethimide,['L02BG01'],"[['L02BG', 'L02B', 'L02', 'L']]",C07617
+DB00358,Mefloquine,"['P01BF02', 'P01BC02']","[['P01BF', 'P01B', 'P01', 'P'], ['P01BC', 'P01B', 'P01', 'P']]",C07633
+DB00360,Sapropterin,['A16AX07'],"[['A16AX', 'A16A', 'A16', 'A']]",C00272
+DB00363,Clozapine,['N05AH02'],"[['N05AH', 'N05A', 'N05', 'N']]",C06924
+DB00364,Sucralfate,['A02BX02'],"[['A02BX', 'A02B', 'A02', 'A']]",C07314
+DB00367,Levonorgestrel,"['G03AB03', 'G03AD01', 'G03AC03', 'G03FB09', 'G03AA07', 'G03FA11']","[['G03AB', 'G03A', 'G03', 'G'], ['G03AD', 'G03A', 'G03', 'G'], ['G03AC', 'G03A', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G']]",C08153
+DB00368,Norepinephrine,['C01CA03'],"[['C01CA', 'C01C', 'C01', 'C']]",C00547
+DB00370,Mirtazapine,['N06AX11'],"[['N06AX', 'N06A', 'N06', 'N']]",C07570
+DB00372,Thiethylperazine,['R06AD03'],"[['R06AD', 'R06A', 'R06', 'R']]",C07132
+DB00373,Timolol,"['C07AA06', 'S01ED51', 'C07BA06', 'C07DA06', 'S01ED01']","[['C07AA', 'C07A', 'C07', 'C'], ['S01ED', 'S01E', 'S01', 'S'], ['C07BA', 'C07B', 'C07', 'C'], ['C07DA', 'C07D', 'C07', 'C'], ['S01ED', 'S01E', 'S01', 'S']]",C07141
+DB00375,Colestipol,['C10AC02'],"[['C10AC', 'C10A', 'C10', 'C']]",C06925
+DB00376,Trihexyphenidyl,['N04AA01'],"[['N04AA', 'N04A', 'N04', 'N']]",C07171
+DB00379,Mexiletine,['C01BB02'],"[['C01BB', 'C01B', 'C01', 'C']]",C07220
+DB00381,Amlodipine,"['C09BB13', 'C09BB04', 'C10BX18', 'C07FB12', 'C09DB05', 'C09XA53', 'C10BX03', 'C09BX04', 'C09DB07', 'C09DX06', 'C09BX01', 'C10BX11', 'C09DB02', 'C10BX09', 'C09DX01', 'C10BX19', 'C09DB01', 'C09XA54', 'C10BX07', 'C09BB03', 'C07FB07', 'C09DB06', 'C07FB13', 'C09DX08', 'C08CA01', 'C09BX03', 'C09DB04', 'C09DX03', 'C08GA02', 'C08CA51', 'C09DB09', 'C10BX14', 'C09BB07', 'C09DX07']","[['C09BB', 'C09B', 'C09', 'C'], ['C09BB', 'C09B', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C07FB', 'C07F', 'C07', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C09XA', 'C09X', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09BX', 'C09B', 'C09', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C09BX', 'C09B', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C09XA', 'C09X', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09BB', 'C09B', 'C09', 'C'], ['C07FB', 'C07F', 'C07', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C07FB', 'C07F', 'C07', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C08CA', 'C08C', 'C08', 'C'], ['C09BX', 'C09B', 'C09', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C08GA', 'C08G', 'C08', 'C'], ['C08CA', 'C08C', 'C08', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09BB', 'C09B', 'C09', 'C'], ['C09DX', 'C09D', 'C09', 'C']]",C06825
+DB00382,Tacrine,['N06DA01'],"[['N06DA', 'N06D', 'N06', 'N']]",C01453
+DB00383,Oxyphencyclimine,"['A03AA01', 'A03CA03']","[['A03AA', 'A03A', 'A03', 'A'], ['A03CA', 'A03C', 'A03', 'A']]",C07851
+DB00387,Procyclidine,['N04AA04'],"[['N04AA', 'N04A', 'N04', 'N']]",C07378
+DB00388,Phenylephrine,"['S01FB01', 'R01AB01', 'C01CA06', 'R01AA04', 'S01FB51', 'R01BA53', 'S01GA05', 'S01GA55', 'R01BA03']","[['S01FB', 'S01F', 'S01', 'S'], ['R01AB', 'R01A', 'R01', 'R'], ['C01CA', 'C01C', 'C01', 'C'], ['R01AA', 'R01A', 'R01', 'R'], ['S01FB', 'S01F', 'S01', 'S'], ['R01BA', 'R01B', 'R01', 'R'], ['S01GA', 'S01G', 'S01', 'S'], ['S01GA', 'S01G', 'S01', 'S'], ['R01BA', 'R01B', 'R01', 'R']]",C07441
+DB00389,Carbimazole,['H03BB01'],"[['H03BB', 'H03B', 'H03', 'H']]",C07615
+DB00390,Digoxin,['C01AA05'],"[['C01AA', 'C01A', 'C01', 'C']]",C06956
+DB00393,Nimodipine,['C08CA06'],"[['C08CA', 'C08C', 'C08', 'C']]",C07267
+DB00394,Beclomethasone dipropionate,"['D07CC04', 'R03AL09', 'R03BA01', 'D07AC15', 'R03AK08', 'R03AK13', 'R01AD01', 'A07EA07']","[['D07CC', 'D07C', 'D07', 'D'], ['R03AL', 'R03A', 'R03', 'R'], ['R03BA', 'R03B', 'R03', 'R'], ['D07AC', 'D07A', 'D07', 'D'], ['R03AK', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R'], ['R01AD', 'R01A', 'R01', 'R'], ['A07EA', 'A07E', 'A07', 'A']]",C07813
+DB00395,Carisoprodol,"['M03BA02', 'M03BA72', 'M03BA52']","[['M03BA', 'M03B', 'M03', 'M'], ['M03BA', 'M03B', 'M03', 'M'], ['M03BA', 'M03B', 'M03', 'M']]",C07927
+DB00396,Progesterone,"['G03FA04', 'G03DA04']","[['G03FA', 'G03F', 'G03', 'G'], ['G03DA', 'G03D', 'G03', 'G']]",C00410
+DB00397,Phenylpropanolamine,"['R01BA51', 'R01BA01']","[['R01BA', 'R01B', 'R01', 'R'], ['R01BA', 'R01B', 'R01', 'R']]",C16719
+DB00400,Griseofulvin,"['D01BA01', 'D01AA08']","[['D01BA', 'D01B', 'D01', 'D'], ['D01AA', 'D01A', 'D01', 'D']]",C06686
+DB00401,Nisoldipine,['C08CA07'],"[['C08CA', 'C08C', 'C08', 'C']]",C07699
+DB00404,Alprazolam,['N05BA12'],"[['N05BA', 'N05B', 'N05', 'N']]",C06817
+DB00408,Loxapine,['N05AH01'],"[['N05AH', 'N05A', 'N05', 'N']]",C07104
+DB00414,Acetohexamide,"['G01AE10', 'A10BB31']","[['G01AE', 'G01A', 'G01', 'G'], ['A10BB', 'A10B', 'A10', 'A']]",C06806
+DB00415,Ampicillin,"['J01CR50', 'J01CA51', 'J01CA01', 'S01AA19']","[['J01CR', 'J01C', 'J01', 'J'], ['J01CA', 'J01C', 'J01', 'J'], ['J01CA', 'J01C', 'J01', 'J'], ['S01AA', 'S01A', 'S01', 'S']]",C06574
+DB00417,Phenoxymethylpenicillin,"['J01CR50', 'J01CE10', 'J01CE02']","[['J01CR', 'J01C', 'J01', 'J'], ['J01CE', 'J01C', 'J01', 'J'], ['J01CE', 'J01C', 'J01', 'J']]",C08126
+DB00420,Promazine,['N05AA03'],"[['N05AA', 'N05A', 'N05', 'N']]",C07379
+DB00421,Spironolactone,['C03DA01'],"[['C03DA', 'C03D', 'C03', 'C']]",C07310
+DB00422,Methylphenidate,['N06BA04'],"[['N06BA', 'N06B', 'N06', 'N']]",C07196
+DB00424,Hyoscyamine,"['A03BA03', 'A03CB31']","[['A03BA', 'A03B', 'A03', 'A'], ['A03CB', 'A03C', 'A03', 'A']]",C02046
+DB00425,Zolpidem,['N05CF02'],"[['N05CF', 'N05C', 'N05', 'N']]",C07219
+DB00428,Streptozocin,['L01AD04'],"[['L01AD', 'L01A', 'L01', 'L']]",C07313
+DB00431,Lindane,['P03AB02'],"[['P03AB', 'P03A', 'P03', 'P']]",C07075
+DB00433,Prochlorperazine,['N05AB04'],"[['N05AB', 'N05A', 'N05', 'N']]",C07403
+DB00434,Cyproheptadine,['R06AX02'],"[['R06AX', 'R06A', 'R06', 'R']]",C06935
+DB00435,Nitric Oxide,['R07AX01'],"[['R07AX', 'R07A', 'R07', 'R']]",C00533
+DB00436,Bendroflumethiazide,"['C03AB01', 'C03EA13', 'G01AE10', 'C03AA01']","[['C03AB', 'C03A', 'C03', 'C'], ['C03EA', 'C03E', 'C03', 'C'], ['G01AE', 'G01A', 'G01', 'G'], ['C03AA', 'C03A', 'C03', 'C']]",C07758
+DB00439,Cerivastatin,['C10AA06'],"[['C10AA', 'C10A', 'C10', 'C']]",C07966
+DB00441,Gemcitabine,['L01BC05'],"[['L01BC', 'L01B', 'L01', 'L']]",C07650
+DB00444,Teniposide,['L01CB02'],"[['L01CB', 'L01C', 'L01', 'L']]",C11153
+DB00445,Epirubicin,['L01DB03'],"[['L01DB', 'L01D', 'L01', 'L']]",C11230
+DB00446,Chloramphenicol,"['D06AX02', 'S02AA01', 'D10AF03', 'S01AA01', 'G01AA05', 'J01BA01', 'S03AA08']","[['D06AX', 'D06A', 'D06', 'D'], ['S02AA', 'S02A', 'S02', 'S'], ['D10AF', 'D10A', 'D10', 'D'], ['S01AA', 'S01A', 'S01', 'S'], ['G01AA', 'G01A', 'G01', 'G'], ['J01BA', 'J01B', 'J01', 'J'], ['S03AA', 'S03A', 'S03', 'S']]",C00918
+DB00449,Dipivefrin,['S01EA02'],"[['S01EA', 'S01E', 'S01', 'S']]",C06963
+DB00451,Levothyroxine,"['H03AA01', 'H03AA51']","[['H03AA', 'H03A', 'H03', 'H'], ['H03AA', 'H03A', 'H03', 'H']]",C01829
+DB00452,Framycetin,"['D09AA01', 'R01AX08', 'S01AA07']","[['D09AA', 'D09A', 'D09', 'D'], ['R01AX', 'R01A', 'R01', 'R'], ['S01AA', 'S01A', 'S01', 'S']]",C01737
+DB00454,Meperidine,"['N02AB02', 'N02AB72', 'N02AB52', 'N02AG03']","[['N02AB', 'N02A', 'N02', 'N'], ['N02AB', 'N02A', 'N02', 'N'], ['N02AB', 'N02A', 'N02', 'N'], ['N02AG', 'N02A', 'N02', 'N']]",C07128
+DB00457,Prazosin,"['C02LE01', 'C02CA01']","[['C02LE', 'C02L', 'C02', 'C'], ['C02CA', 'C02C', 'C02', 'C']]",C07368
+DB00458,Imipramine,['N06AA02'],"[['N06AA', 'N06A', 'N06', 'N']]",C07049
+DB00465,Ketorolac,"['M01AB15', 'S01FB51', 'S01BC05']","[['M01AB', 'M01A', 'M01', 'M'], ['S01FB', 'S01F', 'S01', 'S'], ['S01BC', 'S01B', 'S01', 'S']]",C07062
+DB00467,Enoxacin,['J01MA04'],"[['J01MA', 'J01M', 'J01', 'J']]",C06979
+DB00468,Quinine,"['M09AA72', 'P01BC01']","[['M09AA', 'M09A', 'M09', 'M'], ['P01BC', 'P01B', 'P01', 'P']]",C06526
+DB00470,Dronabinol,['A04AD10'],"[['A04AD', 'A04A', 'A04', 'A']]",C06972
+DB00471,Montelukast,"['R03DC03', 'R03DC53']","[['R03DC', 'R03D', 'R03', 'R'], ['R03DC', 'R03D', 'R03', 'R']]",C07482
+DB00474,Methohexital,"['N05CB01', 'N01AF01', 'N05CA15']","[['N05CB', 'N05C', 'N05', 'N'], ['N01AF', 'N01A', 'N01', 'N'], ['N05CA', 'N05C', 'N05', 'N']]",C07844
+DB00477,Chlorpromazine,['N05AA01'],"[['N05AA', 'N05A', 'N05', 'N']]",C06906
+DB00481,Raloxifene,['G03XC01'],"[['G03XC', 'G03X', 'G03', 'G']]",C07228
+DB00482,Celecoxib,"['N02AJ16', 'M01AH01', 'G01AE10', 'L01XX33', 'C08CA51']","[['N02AJ', 'N02A', 'N02', 'N'], ['M01AH', 'M01A', 'M01', 'M'], ['G01AE', 'G01A', 'G01', 'G'], ['L01XX', 'L01X', 'L01', 'L'], ['C08CA', 'C08C', 'C08', 'C']]",C07589
+DB00484,Brimonidine,"['D11AX21', 'S01GA07', 'S01EA05']","[['D11AX', 'D11A', 'D11', 'D'], ['S01GA', 'S01G', 'S01', 'S'], ['S01EA', 'S01E', 'S01', 'S']]",C07886
+DB00489,Sotalol,"['C07AA07', 'C07BA07', 'C07FX02']","[['C07AA', 'C07A', 'C07', 'C'], ['C07BA', 'C07B', 'C07', 'C'], ['C07FX', 'C07F', 'C07', 'C']]",C07309
+DB00490,Buspirone,['N05BE01'],"[['N05BE', 'N05B', 'N05', 'N']]",C06861
+DB00491,Miglitol,['A10BF02'],"[['A10BF', 'A10B', 'A10', 'A']]",C07708
+DB00492,Fosinopril,"['C09BA09', 'C09AA09']","[['C09BA', 'C09B', 'C09', 'C'], ['C09AA', 'C09A', 'C09', 'C']]",C07016
+DB00493,Cefotaxime,['J01DD01'],"[['J01DD', 'J01D', 'J01', 'J']]",C06885
+DB00494,Entacapone,['N04BX02'],"[['N04BX', 'N04B', 'N04', 'N']]",C07943
+DB00495,Zidovudine,"['J05AR04', 'J05AF01', 'J05AR05', 'J05AR01']","[['J05AR', 'J05A', 'J05', 'J'], ['J05AF', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J']]",C07210
+DB00497,Oxycodone,"['N02AA56', 'N02AA05', 'N02AA55', 'N02AJ18', 'N02AJ17', 'N02AJ19']","[['N02AA', 'N02A', 'N02', 'N'], ['N02AA', 'N02A', 'N02', 'N'], ['N02AA', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N']]",C08018
+DB00498,Phenindione,['B01AA02'],"[['B01AA', 'B01A', 'B01', 'B']]",C07584
+DB00499,Flutamide,['L02BB01'],"[['L02BB', 'L02B', 'L02', 'L']]",C07653
+DB00500,Tolmetin,"['M01AB03', 'M02AA21']","[['M01AB', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M']]",C07149
+DB00501,Cimetidine,"['A02BA51', 'A02BA01']","[['A02BA', 'A02B', 'A02', 'A'], ['A02BA', 'A02B', 'A02', 'A']]",C06952
+DB00502,Haloperidol,['N05AD01'],"[['N05AD', 'N05A', 'N05', 'N']]",C01814
+DB00503,Ritonavir,"['J05AP53', 'J05AR10', 'J05AE30', 'J05AE03', 'J05AR23', 'J05AR26', 'J05AP52']","[['J05AP', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AE', 'J05A', 'J05', 'J'], ['J05AE', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AP', 'J05A', 'J05', 'J']]",C07240
+DB00505,Tridihexethyl,['A03AB08'],"[['A03AB', 'A03A', 'A03', 'A']]",C07861
+DB00511,Acetyldigitoxin,['C01AA01'],"[['C01AA', 'C01A', 'C01', 'C']]",C16749
+DB00513,Aminocaproic acid,['B02AA01'],"[['B02AA', 'B02A', 'B02', 'B']]",C02378
+DB00514,Dextromethorphan,"['R05DA09', 'N07XX59']","[['R05DA', 'R05D', 'R05', 'R'], ['N07XX', 'N07X', 'N07', 'N']]",C06947
+DB00515,Cisplatin,['L01XA01'],"[['L01XA', 'L01X', 'L01', 'L']]",C06911
+DB00518,Albendazole,['P02CA03'],"[['P02CA', 'P02C', 'P02', 'P']]",C01779
+DB00521,Carteolol,"['S01ED55', 'S01ED05', 'C07AA15']","[['S01ED', 'S01E', 'S01', 'S'], ['S01ED', 'S01E', 'S01', 'S'], ['C07AA', 'C07A', 'C07', 'C']]",C06874
+DB00523,Alitretinoin,"['L01XF02', 'D11AH04']","[['L01XF', 'L01X', 'L01', 'L'], ['D11AH', 'D11A', 'D11', 'D']]",C15493
+DB00527,Cinchocaine,"['D04AB02', 'S01HA06', 'S02DA04', 'N01BB06', 'C05AD04']","[['D04AB', 'D04A', 'D04', 'D'], ['S01HA', 'S01H', 'S01', 'S'], ['S02DA', 'S02D', 'S02', 'S'], ['N01BB', 'N01B', 'N01', 'N'], ['C05AD', 'C05A', 'C05', 'C']]",C07879
+DB00531,Cyclophosphamide,['L01AA01'],"[['L01AA', 'L01A', 'L01', 'L']]",C07888
+DB00533,Rofecoxib,['M01AH02'],"[['M01AH', 'M01A', 'M01', 'M']]",C07590
+DB00535,Cefdinir,['J01DD15'],"[['J01DD', 'J01D', 'J01', 'J']]",C08110
+DB00537,Ciprofloxacin,"['J01RA11', 'S03AA07', 'J01MA02', 'S02AA15', 'J01RA10', 'J01RA12', 'S01AE03']","[['J01RA', 'J01R', 'J01', 'J'], ['S03AA', 'S03A', 'S03', 'S'], ['J01MA', 'J01M', 'J01', 'J'], ['S02AA', 'S02A', 'S02', 'S'], ['J01RA', 'J01R', 'J01', 'J'], ['J01RA', 'J01R', 'J01', 'J'], ['S01AE', 'S01A', 'S01', 'S']]",C05349
+DB00539,Toremifene,['L02BA02'],"[['L02BA', 'L02B', 'L02', 'L']]",C08166
+DB00540,Nortriptyline,['N06AA10'],"[['N06AA', 'N06A', 'N06', 'N']]",C07274
+DB00541,Vincristine,['L01CA02'],"[['L01CA', 'L01C', 'L01', 'L']]",C07204
+DB00542,Benazepril,"['C09BB13', 'C09BA07', 'C09AA07']","[['C09BB', 'C09B', 'C09', 'C'], ['C09BA', 'C09B', 'C09', 'C'], ['C09AA', 'C09A', 'C09', 'C']]",C06843
+DB00544,Fluorouracil,"['L01BC52', 'L01BC02']","[['L01BC', 'L01B', 'L01', 'L'], ['L01BC', 'L01B', 'L01', 'L']]",C07649
+DB00545,Pyridostigmine,['N07AA02'],"[['N07AA', 'N07A', 'N07', 'N']]",C07410
+DB00548,Azelaic acid,['D10AX03'],"[['D10AX', 'D10A', 'D10', 'D']]",C08261
+DB00549,Zafirlukast,['R03DC01'],"[['R03DC', 'R03D', 'R03', 'R']]",C07206
+DB00550,Propylthiouracil,['H03BA02'],"[['H03BA', 'H03B', 'H03', 'H']]",C07569
+DB00551,Acetohydroxamic acid,['G04BX03'],"[['G04BX', 'G04B', 'G04', 'G']]",C06808
+DB00552,Pentostatin,['L01XX08'],"[['L01XX', 'L01X', 'L01', 'L']]",C02267
+DB00553,Methoxsalen,"['D05BA02', 'D05AD02']","[['D05BA', 'D05B', 'D05', 'D'], ['D05AD', 'D05A', 'D05', 'D']]",C01864
+DB00554,Piroxicam,"['M01AC01', 'M02AA07', 'S01BC06']","[['M01AC', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M'], ['S01BC', 'S01B', 'S01', 'S']]",C01608
+DB00557,Hydroxyzine,"['N05BB01', 'N05BB51']","[['N05BB', 'N05B', 'N05', 'N'], ['N05BB', 'N05B', 'N05', 'N']]",C07045
+DB00558,Zanamivir,['J05AH01'],"[['J05AH', 'J05A', 'J05', 'J']]",C08095
+DB00562,Benzthiazide,['G01AE10'],"[['G01AE', 'G01A', 'G01', 'G']]",C07759
+DB00563,Methotrexate,"['L04AX03', 'L01BA01']","[['L04AX', 'L04A', 'L04', 'L'], ['L01BA', 'L01B', 'L01', 'L']]",C01937
+DB00564,Carbamazepine,['N03AF01'],"[['N03AF', 'N03A', 'N03', 'N']]",C06868
+DB00571,Propranolol,"['C07FX01', 'C07AA05', 'C07BA05']","[['C07FX', 'C07F', 'C07', 'C'], ['C07AA', 'C07A', 'C07', 'C'], ['C07BA', 'C07B', 'C07', 'C']]",C07407
+DB00572,Atropine,"['S01FA01', 'A03CB03', 'A03BA01']","[['S01FA', 'S01F', 'S01', 'S'], ['A03CB', 'A03C', 'A03', 'A'], ['A03BA', 'A03B', 'A03', 'A']]",C01479
+DB00573,Fenoprofen,['M01AE04'],"[['M01AE', 'M01A', 'M01', 'M']]",C06997
+DB00574,Fenfluramine,"['A08AA02', 'N03AX26']","[['A08AA', 'A08A', 'A08', 'A'], ['N03AX', 'N03A', 'N03', 'N']]",C06996
+DB00583,Levocarnitine,['A16AA01'],"[['A16AA', 'A16A', 'A16', 'A']]",C00318
+DB00584,Enalapril,"['C09BA02', 'C09BB06', 'C09BB02', 'C09AA02']","[['C09BA', 'C09B', 'C09', 'C'], ['C09BB', 'C09B', 'C09', 'C'], ['C09BB', 'C09B', 'C09', 'C'], ['C09AA', 'C09A', 'C09', 'C']]",C06977
+DB00585,Nizatidine,['A02BA04'],"[['A02BA', 'A02B', 'A02', 'A']]",C07270
+DB00586,Diclofenac,"['S01CC01', 'S01BC03', 'M01AB55', 'M02AA15', 'M01AB05', 'D11AX18']","[['S01CC', 'S01C', 'S01', 'S'], ['S01BC', 'S01B', 'S01', 'S'], ['M01AB', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M'], ['M01AB', 'M01A', 'M01', 'M'], ['D11AX', 'D11A', 'D11', 'D']]",C01690
+DB00590,Doxazosin,"['C02CA04', 'G04CA55']","[['C02CA', 'C02C', 'C02', 'C'], ['G04CA', 'G04C', 'G04', 'G']]",C06970
+DB00592,Piperazine,['P02CB01'],"[['P02CB', 'P02C', 'P02', 'P']]",C07973
+DB00593,Ethosuximide,"['N03AD01', 'N03AD51']","[['N03AD', 'N03A', 'N03', 'N'], ['N03AD', 'N03A', 'N03', 'N']]",C07505
+DB00594,Amiloride,['C03DB01'],"[['C03DB', 'C03D', 'C03', 'C']]",C06821
+DB00598,Labetalol,"['C07BG01', 'C07CG01', 'C07AG01']","[['C07BG', 'C07B', 'C07', 'C'], ['C07CG', 'C07C', 'C07', 'C'], ['C07AG', 'C07A', 'C07', 'C']]",C07063
+DB00599,Thiopental,"['N01AF03', 'N05CB01', 'N05CA19']","[['N01AF', 'N01A', 'N01', 'N'], ['N05CB', 'N05C', 'N05', 'N'], ['N05CA', 'N05C', 'N05', 'N']]",C07521
+DB00600,Monobenzone,['D11AX13'],"[['D11AX', 'D11A', 'D11', 'D']]",C14244
+DB00603,Medroxyprogesterone acetate,"['G03AA08', 'G03DA02', 'G03FB06', 'G03FA12', 'L02AB02', 'G03AA17', 'G03AC06']","[['G03AA', 'G03A', 'G03', 'G'], ['G03DA', 'G03D', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['L02AB', 'L02A', 'L02', 'L'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AC', 'G03A', 'G03', 'G']]",C08150
+DB00604,Cisapride,['A03FA02'],"[['A03FA', 'A03F', 'A03', 'A']]",C06910
+DB00605,Sulindac,['M01AB02'],"[['M01AB', 'M01A', 'M01', 'M']]",C01531
+DB00606,Cyclothiazide,"['G01AE10', 'C03AB09', 'C03AA09']","[['G01AE', 'G01A', 'G01', 'G'], ['C03AB', 'C03A', 'C03', 'C'], ['C03AA', 'C03A', 'C03', 'C']]",C12685
+DB00608,Chloroquine,"['P01BB52', 'P01BA01']","[['P01BB', 'P01B', 'P01', 'P'], ['P01BA', 'P01B', 'P01', 'P']]",C07625
+DB00610,Metaraminol,['C01CA09'],"[['C01CA', 'C01C', 'C01', 'C']]",C07146
+DB00611,Butorphanol,['N02AF01'],"[['N02AF', 'N02A', 'N02', 'N']]",C06863
+DB00612,Bisoprolol,"['C07FX04', 'C07BB07', 'C07AB07', 'C09BX05', 'C09BX02', 'C09BX04', 'C07FB07']","[['C07FX', 'C07F', 'C07', 'C'], ['C07BB', 'C07B', 'C07', 'C'], ['C07AB', 'C07A', 'C07', 'C'], ['C09BX', 'C09B', 'C09', 'C'], ['C09BX', 'C09B', 'C09', 'C'], ['C09BX', 'C09B', 'C09', 'C'], ['C07FB', 'C07F', 'C07', 'C']]",C06852
+DB00613,Amodiaquine,"['P01BF03', 'P01BA06']","[['P01BF', 'P01B', 'P01', 'P'], ['P01BA', 'P01B', 'P01', 'P']]",C07626
+DB00614,Furazolidone,"['G01AX06', 'P01AB51']","[['G01AX', 'G01A', 'G01', 'G'], ['P01AB', 'P01A', 'P01', 'P']]",C07999
+DB00615,Rifabutin,"['J04AB04', 'A02BD16']","[['J04AB', 'J04A', 'J04', 'J'], ['A02BD', 'A02B', 'A02', 'A']]",C07235
+DB00617,Paramethadione,['N03AC01'],"[['N03AC', 'N03A', 'N03', 'N']]",C07411
+DB00621,Oxandrolone,['A14AA08'],"[['A14AA', 'A14A', 'A14', 'A']]",C07346
+DB00622,Nicardipine,['C08CA04'],"[['C08CA', 'C08C', 'C08', 'C']]",C07264
+DB00623,Fluphenazine,['N05AB02'],"[['N05AB', 'N05A', 'N05', 'N']]",C07010
+DB00624,Testosterone,"['G03BA03', 'G03EA02']","[['G03BA', 'G03B', 'G03', 'G'], ['G03EA', 'G03E', 'G03', 'G']]",C00535
+DB00626,Bacitracin,"['J01XX10', 'D06AX05', 'R02AB04']","[['J01XX', 'J01X', 'J01', 'J'], ['D06AX', 'D06A', 'D06', 'D'], ['R02AB', 'R02A', 'R02', 'R']]",C15482
+DB00627,Niacin,"['C10AD02', 'C10AD52', 'C10BA01', 'C04AC01']","[['C10AD', 'C10A', 'C10', 'C'], ['C10AD', 'C10A', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C'], ['C04AC', 'C04A', 'C04', 'C']]",C00253
+DB00628,Clorazepic acid,['N05BA05'],"[['N05BA', 'N05B', 'N05', 'N']]",C06921
+DB00630,Alendronic acid,"['M05BB03', 'M05BA04', 'M05BB06', 'M05BB05']","[['M05BB', 'M05B', 'M05', 'M'], ['M05BA', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M']]",C07752
+DB00633,Dexmedetomidine,['N05CM18'],"[['N05CM', 'N05C', 'N05', 'N']]",C07450
+DB00635,Prednisone,"['A07EA03', 'H02AB07']","[['A07EA', 'A07E', 'A07', 'A'], ['H02AB', 'H02A', 'H02', 'H']]",C07370
+DB00636,Clofibrate,['C10AB01'],"[['C10AB', 'C10A', 'C10', 'C']]",C06916
+DB00637,Astemizole,['R06AX11'],"[['R06AX', 'R06A', 'R06', 'R']]",C06832
+DB00640,Adenosine,['C01EB10'],"[['C01EB', 'C01E', 'C01', 'C']]",C00212
+DB00644,Gonadorelin,"['V04CM01', 'H01CA01']","[['V04CM', 'V04C', 'V04', 'V'], ['H01CA', 'H01C', 'H01', 'H']]",C07607
+DB00645,Dyclonine,"['N01BX02', 'R02AD04']","[['N01BX', 'N01B', 'N01', 'N'], ['R02AD', 'R02A', 'R02', 'R']]",C07881
+DB00647,Dextropropoxyphene,"['N02AC04', 'N02AC54', 'N02AC74']","[['N02AC', 'N02A', 'N02', 'N'], ['N02AC', 'N02A', 'N02', 'N'], ['N02AC', 'N02A', 'N02', 'N']]",C07406
+DB00651,Dyphylline,"['R03DA20', 'R03DB01', 'R03DA51', 'R03DA01']","[['R03DA', 'R03D', 'R03', 'R'], ['R03DB', 'R03D', 'R03', 'R'], ['R03DA', 'R03D', 'R03', 'R'], ['R03DA', 'R03D', 'R03', 'R']]",C07819
+DB00652,Pentazocine,['N02AD01'],"[['N02AD', 'N02A', 'N02', 'N']]",C07421
+DB00655,Estrone,"['G03CC04', 'G03CA07']","[['G03CC', 'G03C', 'G03', 'G'], ['G03CA', 'G03C', 'G03', 'G']]",C00468
+DB00656,Trazodone,['N06AX05'],"[['N06AX', 'N06A', 'N06', 'N']]",C07156
+DB00657,Mecamylamine,['C02BB01'],"[['C02BB', 'C02B', 'C02', 'C']]",C07511
+DB00661,Verapamil,"['C09BB10', 'C08DA51', 'C08DA01']","[['C09BB', 'C09B', 'C09', 'C'], ['C08DA', 'C08D', 'C08', 'C'], ['C08DA', 'C08D', 'C08', 'C']]",C07188
+DB00663,Flumethasone,"['D07AB03', 'D07BB01', 'S02CA02', 'D07CB05', 'D07XB01']","[['D07AB', 'D07A', 'D07', 'D'], ['D07BB', 'D07B', 'D07', 'D'], ['S02CA', 'S02C', 'S02', 'S'], ['D07CB', 'D07C', 'D07', 'D'], ['D07XB', 'D07X', 'D07', 'D']]",C14479
+DB00665,Nilutamide,['L02BB02'],"[['L02BB', 'L02B', 'L02', 'L']]",C08164
+DB00666,Nafarelin,['H01CA02'],"[['H01CA', 'H01C', 'H01', 'H']]",C07613
+DB00668,Epinephrine,"['A01AD01', 'R03AK01', 'B02BC09', 'C01CA24', 'S01EA01', 'R01AA14', 'R03AA01', 'S01EA51']","[['A01AD', 'A01A', 'A01', 'A'], ['R03AK', 'R03A', 'R03', 'R'], ['B02BC', 'B02B', 'B02', 'B'], ['C01CA', 'C01C', 'C01', 'C'], ['S01EA', 'S01E', 'S01', 'S'], ['R01AA', 'R01A', 'R01', 'R'], ['R03AA', 'R03A', 'R03', 'R'], ['S01EA', 'S01E', 'S01', 'S']]",C00788
+DB00669,Sumatriptan,"['N02CC01', 'G01AE10']","[['N02CC', 'N02C', 'N02', 'N'], ['G01AE', 'G01A', 'G01', 'G']]",C07319
+DB00670,Pirenzepine,['A02BX03'],"[['A02BX', 'A02B', 'A02', 'A']]",C07508
+DB00674,Galantamine,['N06DA04'],"[['N06DA', 'N06D', 'N06', 'N']]",C08526
+DB00675,Tamoxifen,['L02BA01'],"[['L02BA', 'L02B', 'L02', 'L']]",C07108
+DB00678,Losartan,"['C09CA01', 'C09DA01', 'C09DB06']","[['C09CA', 'C09C', 'C09', 'C'], ['C09DA', 'C09D', 'C09', 'C'], ['C09DB', 'C09D', 'C09', 'C']]",C07072
+DB00680,Moricizine,['C01BG01'],"[['C01BG', 'C01B', 'C01', 'C']]",C07743
+DB00682,Warfarin,['B01AA03'],"[['B01AA', 'B01A', 'B01', 'B']]",C01541
+DB00683,Midazolam,['N05CD08'],"[['N05CD', 'N05C', 'N05', 'N']]",C07524
+DB00685,Trovafloxacin,['J01MA13'],"[['J01MA', 'J01M', 'J01', 'J']]",C07664
+DB00687,Fludrocortisone,"['S02CA07', 'S01CA06', 'H02AA02', 'S03CA05']","[['S02CA', 'S02C', 'S02', 'S'], ['S01CA', 'S01C', 'S01', 'S'], ['H02AA', 'H02A', 'H02', 'H'], ['S03CA', 'S03C', 'S03', 'S']]",C07004
+DB00691,Moexipril,"['C09AA13', 'C09BA13']","[['C09AA', 'C09A', 'C09', 'C'], ['C09BA', 'C09B', 'C09', 'C']]",C07704
+DB00694,Daunorubicin,"['L01DB02', 'L01XY01']","[['L01DB', 'L01D', 'L01', 'L'], ['L01XY', 'L01X', 'L01', 'L']]",C01907
+DB00695,Furosemide,"['C03EB01', 'C03CA01', 'G01AE10', 'C03CB01']","[['C03EB', 'C03E', 'C03', 'C'], ['C03CA', 'C03C', 'C03', 'C'], ['G01AE', 'G01A', 'G01', 'G'], ['C03CB', 'C03C', 'C03', 'C']]",C07017
+DB00696,Ergotamine,"['N02CA02', 'N02CA52', 'N02CA72']","[['N02CA', 'N02C', 'N02', 'N'], ['N02CA', 'N02C', 'N02', 'N'], ['N02CA', 'N02C', 'N02', 'N']]",C07544
+DB00697,Tizanidine,['M03BX02'],"[['M03BX', 'M03B', 'M03', 'M']]",C07452
+DB00700,Eplerenone,['C03DA04'],"[['C03DA', 'C03D', 'C03', 'C']]",C12512
+DB00703,Methazolamide,"['G01AE10', 'S01EC05']","[['G01AE', 'G01A', 'G01', 'G'], ['S01EC', 'S01E', 'S01', 'S']]",C07764
+DB00704,Naltrexone,"['N02AA56', 'N07BB04', 'A08AA62']","[['N02AA', 'N02A', 'N02', 'N'], ['N07BB', 'N07B', 'N07', 'N'], ['A08AA', 'A08A', 'A08', 'A']]",C07253
+DB00706,Tamsulosin,"['G04CA52', 'G04CA02', 'G01AE10', 'G04CA54', 'G04CA53']","[['G04CA', 'G04C', 'G04', 'G'], ['G04CA', 'G04C', 'G04', 'G'], ['G01AE', 'G01A', 'G01', 'G'], ['G04CA', 'G04C', 'G04', 'G'], ['G04CA', 'G04C', 'G04', 'G']]",C07124
+DB00708,Sufentanil,['N01AH03'],"[['N01AH', 'N01A', 'N01', 'N']]",C08022
+DB00709,Lamivudine,"['J05AR27', 'J05AR02', 'J05AR25', 'J05AR11', 'J05AR07', 'J05AR01', 'J05AR13', 'J05AR12', 'J05AR24', 'J05AR04', 'J05AR16', 'J05AR05', 'J05AF05']","[['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AF', 'J05A', 'J05', 'J']]",C07065
+DB00711,Diethylcarbamazine,['P02CB02'],"[['P02CB', 'P02C', 'P02', 'P']]",C07968
+DB00713,Oxacillin,"['J01CR50', 'J01CF04']","[['J01CR', 'J01C', 'J01', 'J'], ['J01CF', 'J01C', 'J01', 'J']]",C07334
+DB00715,Paroxetine,['N06AB05'],"[['N06AB', 'N06A', 'N06', 'N']]",C07415
+DB00716,Nedocromil,"['R03BC03', 'R01AC07', 'S01GX04']","[['R03BC', 'R03B', 'R03', 'R'], ['R01AC', 'R01A', 'R01', 'R'], ['S01GX', 'S01G', 'S01', 'S']]",C07255
+DB00717,Norethisterone,"['H01CC53', 'H01CC54', 'G03AA05', 'G03DC02', 'G03AB04', 'G03AC01', 'G03FA01', 'G03FB05']","[['H01CC', 'H01C', 'H01', 'H'], ['H01CC', 'H01C', 'H01', 'H'], ['G03AA', 'G03A', 'G03', 'G'], ['G03DC', 'G03D', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AC', 'G03A', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G']]",C05028
+DB00719,Azatadine,['R06AX09'],"[['R06AX', 'R06A', 'R06', 'R']]",C07774
+DB00721,Procaine,"['N01BA52', 'C05AD05', 'S01HA05', 'N01BA02']","[['N01BA', 'N01B', 'N01', 'N'], ['C05AD', 'C05A', 'C05', 'C'], ['S01HA', 'S01H', 'S01', 'S'], ['N01BA', 'N01B', 'N01', 'N']]",C07375
+DB00723,Methoxamine,['C01CA10'],"[['C01CA', 'C01C', 'C01', 'C']]",C07513
+DB00727,Nitroglycerin,"['C01DA02', 'C01DA52', 'C05AE01']","[['C01DA', 'C01D', 'C01', 'C'], ['C01DA', 'C01D', 'C01', 'C'], ['C05AE', 'C05A', 'C05', 'C']]",C07455
+DB00728,Rocuronium,['M03AC09'],"[['M03AC', 'M03A', 'M03', 'M']]",C07556
+DB00731,Nateglinide,['A10BX03'],"[['A10BX', 'A10B', 'A10', 'A']]",C12508
+DB00733,Pralidoxime,['V03AB04'],"[['V03AB', 'V03A', 'V03', 'V']]",C07400
+DB00735,Naftifine,['D01AE22'],"[['D01AE', 'D01A', 'D01', 'D']]",C08071
+DB00737,Meclizine,"['R06AE55', 'R06AE05']","[['R06AE', 'R06A', 'R06', 'R'], ['R06AE', 'R06A', 'R06', 'R']]",C07116
+DB00738,Pentamidine,['P01CX01'],"[['P01CX', 'P01C', 'P01', 'P']]",C07420
+DB00740,Riluzole,['N07XX02'],"[['N07XX', 'N07X', 'N07', 'N']]",C07937
+DB00741,Hydrocortisone,"['S01CB03', 'A01AC03', 'S01BA02', 'S01CA03', 'D07AA02', 'S01BB01', 'D07XA01', 'D07BA04', 'S02CA03', 'A07EA02', 'S02BA01', 'R01AD60', 'H02AB09', 'D07CA01', 'S03CA04', 'C05AA01']","[['S01CB', 'S01C', 'S01', 'S'], ['A01AC', 'A01A', 'A01', 'A'], ['S01BA', 'S01B', 'S01', 'S'], ['S01CA', 'S01C', 'S01', 'S'], ['D07AA', 'D07A', 'D07', 'D'], ['S01BB', 'S01B', 'S01', 'S'], ['D07XA', 'D07X', 'D07', 'D'], ['D07BA', 'D07B', 'D07', 'D'], ['S02CA', 'S02C', 'S02', 'S'], ['A07EA', 'A07E', 'A07', 'A'], ['S02BA', 'S02B', 'S02', 'S'], ['R01AD', 'R01A', 'R01', 'R'], ['H02AB', 'H02A', 'H02', 'H'], ['D07CA', 'D07C', 'D07', 'D'], ['S03CA', 'S03C', 'S03', 'S'], ['C05AA', 'C05A', 'C05', 'C']]",C00735
+DB00746,Deferoxamine,['V03AC01'],"[['V03AC', 'V03A', 'V03', 'V']]",C06940
+DB00747,Scopolamine,"['N05CM05', 'S01FA02', 'A04AD01', 'A04AD51']","[['N05CM', 'N05C', 'N05', 'N'], ['S01FA', 'S01F', 'S01', 'S'], ['A04AD', 'A04A', 'A04', 'A'], ['A04AD', 'A04A', 'A04', 'A']]",C01851
+DB00748,Carbinoxamine,['R06AA08'],"[['R06AA', 'R06A', 'R06', 'R']]",C06871
+DB00749,Etodolac,['M01AB08'],"[['M01AB', 'M01A', 'M01', 'M']]",C06991
+DB00750,Prilocaine,"['N01BB54', 'N01BB04']","[['N01BB', 'N01B', 'N01', 'N'], ['N01BB', 'N01B', 'N01', 'N']]",C07531
+DB00752,Tranylcypromine,['N06AF04'],"[['N06AF', 'N06A', 'N06', 'N']]",C07155
+DB00753,Isoflurane,['N01AB06'],"[['N01AB', 'N01A', 'N01', 'N']]",C07518
+DB00754,Ethotoin,['N03AB01'],"[['N03AB', 'N03A', 'N03', 'N']]",C07839
+DB00755,Tretinoin,"['L01XF01', 'D10AD51', 'D10AD01']","[['L01XF', 'L01X', 'L01', 'L'], ['D10AD', 'D10A', 'D10', 'D'], ['D10AD', 'D10A', 'D10', 'D']]",C00777
+DB00756,Hexachlorophene,['D08AE01'],"[['D08AE', 'D08A', 'D08', 'D']]",C08039
+DB00757,Dolasetron,['A04AA04'],"[['A04AA', 'A04A', 'A04', 'A']]",C07866
+DB00759,Tetracycline,"['S02AA08', 'A02BD02', 'A01AB13', 'J01AA07', 'S01AA09', 'J01AA20', 'J01RA08', 'S03AA02', 'D06AA04', 'A02BD08']","[['S02AA', 'S02A', 'S02', 'S'], ['A02BD', 'A02B', 'A02', 'A'], ['A01AB', 'A01A', 'A01', 'A'], ['J01AA', 'J01A', 'J01', 'J'], ['S01AA', 'S01A', 'S01', 'S'], ['J01AA', 'J01A', 'J01', 'J'], ['J01RA', 'J01R', 'J01', 'J'], ['S03AA', 'S03A', 'S03', 'S'], ['D06AA', 'D06A', 'D06', 'D'], ['A02BD', 'A02B', 'A02', 'A']]",C06570
+DB00762,Irinotecan,['L01CE02'],"[['L01CE', 'L01C', 'L01', 'L']]",C16641
+DB00763,Methimazole,"['H03BB52', 'H03BB02']","[['H03BB', 'H03B', 'H03', 'H'], ['H03BB', 'H03B', 'H03', 'H']]",C07190
+DB00764,Mometasone,"['R03AL12', 'R01AD59', 'R03AK14']","[['R03AL', 'R03A', 'R03', 'R'], ['R01AD', 'R01A', 'R01', 'R'], ['R03AK', 'R03A', 'R03', 'R']]",C07816
+DB00765,Metyrosine,['C02KB01'],"[['C02KB', 'C02K', 'C02', 'C']]",C07921
+DB00768,Olopatadine,"['S01GX09', 'R01AC08']","[['S01GX', 'S01G', 'S01', 'S'], ['R01AC', 'R01A', 'R01', 'R']]",C07789
+DB00770,Alprostadil,"['C01EA01', 'G04BE01']","[['C01EA', 'C01E', 'C01', 'C'], ['G04BE', 'G04B', 'G04', 'G']]",C04741
+DB00771,Clidinium,['A03CA02'],"[['A03CA', 'A03C', 'A03', 'A']]",C07853
+DB00772,Malathion,['P03AX03'],"[['P03AX', 'P03A', 'P03', 'P']]",C07497
+DB00773,Etoposide,['L01CB01'],"[['L01CB', 'L01C', 'L01', 'L']]",C01576
+DB00774,Hydroflumethiazide,"['C03AA02', 'G01AE10', 'C03AH02', 'C03AB02']","[['C03AA', 'C03A', 'C03', 'C'], ['G01AE', 'G01A', 'G01', 'G'], ['C03AH', 'C03A', 'C03', 'C'], ['C03AB', 'C03A', 'C03', 'C']]",C07763
+DB00775,Tirofiban,['B01AC17'],"[['B01AC', 'B01A', 'B01', 'B']]",C07965
+DB00776,Oxcarbazepine,['N03AF02'],"[['N03AF', 'N03A', 'N03', 'N']]",C07492
+DB00777,Propiomazine,['N05CM06'],"[['N05CM', 'N05C', 'N05', 'N']]",C07405
+DB00778,Roxithromycin,['J01FA06'],"[['J01FA', 'J01F', 'J01', 'J']]",C13173
+DB00779,Nalidixic acid,['J01MB02'],"[['J01MB', 'J01M', 'J01', 'J']]",C05079
+DB00780,Phenelzine,['N06AF03'],"[['N06AF', 'N06A', 'N06', 'N']]",C07430
+DB00782,Propantheline,"['A03AB05', 'A03CA34']","[['A03AB', 'A03A', 'A03', 'A'], ['A03CA', 'A03C', 'A03', 'A']]",C07506
+DB00783,Estradiol,"['G03FA16', 'G03FA06', 'G03FA09', 'G03FA14', 'G03CA53', 'G03FA12', 'G03FB12', 'G03FB03', 'G03FA15', 'G03FB02', 'G03FB10', 'G03FA10', 'G03EA01', 'G03FA04', 'G03FB11', 'G03FA01', 'G03FB09', 'G03FB08', 'G03EA03', 'G03AA14', 'G03AB08', 'G03FB01', 'G03FA03', 'H01CC54', 'G03FA08', 'G03FB06', 'G03EA02', 'G03AA17', 'G03FA11', 'G03FB07', 'G03FA17', 'G03FA07', 'G03FA02', 'G03HB01', 'H01CC53', 'G03FB04', 'G03FA13', 'G02BB01', 'G03CA03', 'G03FA05', 'G03FB05']","[['G03FA', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03CA', 'G03C', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03EA', 'G03E', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03EA', 'G03E', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['H01CC', 'H01C', 'H01', 'H'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03EA', 'G03E', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03HB', 'G03H', 'G03', 'G'], ['H01CC', 'H01C', 'H01', 'H'], ['G03FB', 'G03F', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G02BB', 'G02B', 'G02', 'G'], ['G03CA', 'G03C', 'G03', 'G'], ['G03FA', 'G03F', 'G03', 'G'], ['G03FB', 'G03F', 'G03', 'G']]",C00951
+DB00784,Mefenamic acid,['M01AG01'],"[['M01AG', 'M01A', 'M01', 'M']]",C02168
+DB00788,Naproxen,"['G02CC02', 'M02AA12', 'M01AE56', 'M01AE52', 'M01AE02']","[['G02CC', 'G02C', 'G02', 'G'], ['M02AA', 'M02A', 'M02', 'M'], ['M01AE', 'M01A', 'M01', 'M'], ['M01AE', 'M01A', 'M01', 'M'], ['M01AE', 'M01A', 'M01', 'M']]",C01517
+DB00790,Perindopril,"['C09BX01', 'C09BA04', 'C10BX11', 'C10BX13', 'C09AA04', 'C09BX02', 'C10BX12', 'C09BB04', 'C10BX15', 'C10BX14', 'C09BX04']","[['C09BX', 'C09B', 'C09', 'C'], ['C09BA', 'C09B', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09AA', 'C09A', 'C09', 'C'], ['C09BX', 'C09B', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09BB', 'C09B', 'C09', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C09BX', 'C09B', 'C09', 'C']]",C07706
+DB00791,Uracil mustard,['L01AD08'],"[['L01AD', 'L01A', 'L01', 'L']]",C11686
+DB00792,Tripelennamine,"['R06AC04', 'D04AA04']","[['R06AC', 'R06A', 'R06', 'R'], ['D04AA', 'D04A', 'D04', 'D']]",C07180
+DB00794,Primidone,"['N05CB01', 'N03AA03']","[['N05CB', 'N05C', 'N05', 'N'], ['N03AA', 'N03A', 'N03', 'N']]",C07371
+DB00795,Sulfasalazine,"['G01AE10', 'A07EC01']","[['G01AE', 'G01A', 'G01', 'G'], ['A07EC', 'A07E', 'A07', 'A']]",C07316
+DB00797,Tolazoline,"['M02AX02', 'C04AB02']","[['M02AX', 'M02A', 'M02', 'M'], ['C04AB', 'C04A', 'C04', 'C']]",C07147
+DB00799,Tazarotene,"['D05AX55', 'D05AX05']","[['D05AX', 'D05A', 'D05', 'D'], ['D05AX', 'D05A', 'D05', 'D']]",C12531
+DB00800,Fenoldopam,['C01CA19'],"[['C01CA', 'C01C', 'C01', 'C']]",C07693
+DB00802,Alfentanil,['N01AH02'],"[['N01AH', 'N01A', 'N01', 'N']]",C08005
+DB00804,Dicyclomine,['A03AA07'],"[['A03AA', 'A03A', 'A03', 'A']]",C06951
+DB00806,Pentoxifylline,"['C04AD03', 'R03DA20']","[['C04AD', 'C04A', 'C04', 'C'], ['R03DA', 'R03D', 'R03', 'R']]",C07424
+DB00807,Proparacaine,['S01HA04'],"[['S01HA', 'S01H', 'S01', 'S']]",C07383
+DB00810,Biperiden,['N04AA02'],"[['N04AA', 'N04A', 'N04', 'N']]",C07941
+DB00812,Phenylbutazone,"['M01BA01', 'M01AA01', 'M02AA01']","[['M01BA', 'M01B', 'M01', 'M'], ['M01AA', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M']]",C07440
+DB00814,Meloxicam,"['N01BB59', 'M01AC56', 'M01AC06']","[['N01BB', 'N01B', 'N01', 'N'], ['M01AC', 'M01A', 'M01', 'M'], ['M01AC', 'M01A', 'M01', 'M']]",C08169
+DB00816,Orciprenaline,"['R03AB03', 'R03CB03', 'R03CB53']","[['R03AB', 'R03A', 'R03', 'R'], ['R03CB', 'R03C', 'R03', 'R'], ['R03CB', 'R03C', 'R03', 'R']]",C07144
+DB00818,Propofol,['N01AX10'],"[['N01AX', 'N01A', 'N01', 'N']]",C07523
+DB00819,Acetazolamide,"['G01AE10', 'S01EC01']","[['G01AE', 'G01A', 'G01', 'G'], ['S01EC', 'S01E', 'S01', 'S']]",C06805
+DB00822,Disulfiram,"['P03AA04', 'P03AA54', 'N07BB01']","[['P03AA', 'P03A', 'P03', 'P'], ['P03AA', 'P03A', 'P03', 'P'], ['N07BB', 'N07B', 'N07', 'N']]",C01692
+DB00827,Cinoxacin,['J01MB06'],"[['J01MB', 'J01M', 'J01', 'J']]",C08052
+DB00829,Diazepam,['N05BA01'],"[['N05BA', 'N05B', 'N05', 'N']]",C06948
+DB00831,Trifluoperazine,['N05AB06'],"[['N05AB', 'N05A', 'N05', 'N']]",C07168
+DB00834,Mifepristone,"['G03XB01', 'G03XB51']","[['G03XB', 'G03X', 'G03', 'G'], ['G03XB', 'G03X', 'G03', 'G']]",C07652
+DB00835,Brompheniramine,"['R06AB51', 'R06AB01']","[['R06AB', 'R06A', 'R06', 'R'], ['R06AB', 'R06A', 'R06', 'R']]",C06857
+DB00836,Loperamide,"['A07DA53', 'A07DA03']","[['A07DA', 'A07D', 'A07', 'A'], ['A07DA', 'A07D', 'A07', 'A']]",C07080
+DB00841,Dobutamine,['C01CA07'],"[['C01CA', 'C01C', 'C01', 'C']]",C06967
+DB00842,Oxazepam,['N05BA04'],"[['N05BA', 'N05B', 'N05', 'N']]",C07359
+DB00844,Nalbuphine,['N02AF02'],"[['N02AF', 'N02A', 'N02', 'N']]",C07251
+DB00845,Clofazimine,"['J04BA01', 'J04BA51']","[['J04BA', 'J04B', 'J04', 'J'], ['J04BA', 'J04B', 'J04', 'J']]",C06915
+DB00847,Cysteamine,"['A16AA04', 'S01XA21']","[['A16AA', 'A16A', 'A16', 'A'], ['S01XA', 'S01X', 'S01', 'S']]",C01678
+DB00848,Levamisole,['P02CE01'],"[['P02CE', 'P02C', 'P02', 'P']]",C07070
+DB00849,Methylphenobarbital,"['N03AA01', 'N05CB01']","[['N03AA', 'N03A', 'N03', 'N'], ['N05CB', 'N05C', 'N05', 'N']]",C07829
+DB00850,Perphenazine,['N05AB03'],"[['N05AB', 'N05A', 'N05', 'N']]",C07427
+DB00851,Dacarbazine,['L01AX04'],"[['L01AX', 'L01A', 'L01', 'L']]",C06936
+DB00852,Pseudoephedrine,"['R01BA52', 'R01BA02']","[['R01BA', 'R01B', 'R01', 'R'], ['R01BA', 'R01B', 'R01', 'R']]",C02765
+DB00855,Aminolevulinic acid,['L01XD04'],"[['L01XD', 'L01X', 'L01', 'L']]",C00430
+DB00857,Terbinafine,"['D01AE15', 'D01BA02']","[['D01AE', 'D01A', 'D01', 'D'], ['D01BA', 'D01B', 'D01', 'D']]",C08079
+DB00859,Penicillamine,['M01CC01'],"[['M01CC', 'M01C', 'M01', 'M']]",C07418
+DB00860,Prednisolone,"['D07AA03', 'S01CA02', 'D07XA02', 'A01AC54', 'R01AD02', 'S01BB02', 'S01CB02', 'R01AD52', 'V03AB05', 'S03BA02', 'D07BA01', 'D07CA03', 'S01BA04', 'S02BA03', 'A01AC04', 'A07EA01', 'H02AB06', 'S02CA01', 'C05AA04', 'S03CA02']","[['D07AA', 'D07A', 'D07', 'D'], ['S01CA', 'S01C', 'S01', 'S'], ['D07XA', 'D07X', 'D07', 'D'], ['A01AC', 'A01A', 'A01', 'A'], ['R01AD', 'R01A', 'R01', 'R'], ['S01BB', 'S01B', 'S01', 'S'], ['S01CB', 'S01C', 'S01', 'S'], ['R01AD', 'R01A', 'R01', 'R'], ['V03AB', 'V03A', 'V03', 'V'], ['S03BA', 'S03B', 'S03', 'S'], ['D07BA', 'D07B', 'D07', 'D'], ['D07CA', 'D07C', 'D07', 'D'], ['S01BA', 'S01B', 'S01', 'S'], ['S02BA', 'S02B', 'S02', 'S'], ['A01AC', 'A01A', 'A01', 'A'], ['A07EA', 'A07E', 'A07', 'A'], ['H02AB', 'H02A', 'H02', 'H'], ['S02CA', 'S02C', 'S02', 'S'], ['C05AA', 'C05A', 'C05', 'C'], ['S03CA', 'S03C', 'S03', 'S']]",C07369
+DB00861,Diflunisal,['N02BA11'],"[['N02BA', 'N02B', 'N02', 'N']]",C01691
+DB00864,Tacrolimus,"['D11AH01', 'L04AD02']","[['D11AH', 'D11A', 'D11', 'D'], ['L04AD', 'L04A', 'L04', 'L']]",C01375
+DB00867,Ritodrine,['G02CA01'],"[['G02CA', 'G02C', 'G02', 'G']]",C07239
+DB00869,Dorzolamide,"['G01AE10', 'S01EC03']","[['G01AE', 'G01A', 'G01', 'G'], ['S01EC', 'S01E', 'S01', 'S']]",C06969
+DB00870,Suprofen,['M01AE07'],"[['M01AE', 'M01A', 'M01', 'M']]",C07320
+DB00871,Terbutaline,"['R03CC53', 'R03CC03', 'R03AC03']","[['R03CC', 'R03C', 'R03', 'R'], ['R03CC', 'R03C', 'R03', 'R'], ['R03AC', 'R03A', 'R03', 'R']]",C07129
+DB00875,Flupentixol,['N05AF01'],"[['N05AF', 'N05A', 'N05', 'N']]",C11191
+DB00876,Eprosartan,"['C09DA02', 'C09CA02']","[['C09DA', 'C09D', 'C09', 'C'], ['C09CA', 'C09C', 'C09', 'C']]",C07467
+DB00877,Sirolimus,"['L01EG04', 'S01XA23', 'L04AA10']","[['L01EG', 'L01E', 'L01', 'L'], ['S01XA', 'S01X', 'S01', 'S'], ['L04AA', 'L04A', 'L04', 'L']]",C07909
+DB00880,Chlorothiazide,"['C03AB04', 'G01AE10', 'C03AA04', 'C03AH01']","[['C03AB', 'C03A', 'C03', 'C'], ['G01AE', 'G01A', 'G01', 'G'], ['C03AA', 'C03A', 'C03', 'C'], ['C03AH', 'C03A', 'C03', 'C']]",C07461
+DB00881,Quinapril,"['C09AA06', 'C09BA06']","[['C09AA', 'C09A', 'C09', 'C'], ['C09BA', 'C09B', 'C09', 'C']]",C07398
+DB00882,Clomifene,['G03GB02'],"[['G03GB', 'G03G', 'G03', 'G']]",C06917
+DB00883,Isosorbide dinitrate,"['C01DA08', 'C01DA58', 'C05AE02']","[['C01DA', 'C01D', 'C01', 'C'], ['C01DA', 'C01D', 'C01', 'C'], ['C05AE', 'C05A', 'C05', 'C']]",C07456
+DB00884,Risedronic acid,"['M05BB07', 'M05BB02', 'M05BB04', 'M05BA07']","[['M05BB', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M'], ['M05BA', 'M05B', 'M05', 'M']]",C08233
+DB00888,Mechlorethamine,['L01AA05'],"[['L01AA', 'L01A', 'L01', 'L']]",C07115
+DB00889,Granisetron,['A04AA02'],"[['A04AA', 'A04A', 'A04', 'A']]",C07023
+DB00890,Dienestrol,"['G03CB01', 'G03CC02']","[['G03CB', 'G03C', 'G03', 'G'], ['G03CC', 'G03C', 'G03', 'G']]",C08090
+DB00898,Ethanol,"['V03AB16', 'V03AZ01', 'D08AX08']","[['V03AB', 'V03A', 'V03', 'V'], ['V03AZ', 'V03A', 'V03', 'V'], ['D08AX', 'D08A', 'D08', 'D']]",C00469
+DB00899,Remifentanil,['N01AH06'],"[['N01AH', 'N01A', 'N01', 'N']]",C08021
+DB00900,Didanosine,['J05AF02'],"[['J05AF', 'J05A', 'J05', 'J']]",C06953
+DB00901,Bitolterol,['R03AC17'],"[['R03AC', 'R03A', 'R03', 'R']]",C06853
+DB00902,Methdilazine,['R06AD04'],"[['R06AD', 'R06A', 'R06', 'R']]",C07175
+DB00904,Ondansetron,['A04AA01'],"[['A04AA', 'A04A', 'A04', 'A']]",C07325
+DB00906,Tiagabine,['N03AG06'],"[['N03AG', 'N03A', 'N03', 'N']]",C07503
+DB00907,Cocaine,"['S01HA01', 'S02DA02', 'N01BC01', 'R02AD03']","[['S01HA', 'S01H', 'S01', 'S'], ['S02DA', 'S02D', 'S02', 'S'], ['N01BC', 'N01B', 'N01', 'N'], ['R02AD', 'R02A', 'R02', 'R']]",C01416
+DB00908,Quinidine,"['C01BA01', 'C01BA51', 'C01BA71']","[['C01BA', 'C01B', 'C01', 'C'], ['C01BA', 'C01B', 'C01', 'C'], ['C01BA', 'C01B', 'C01', 'C']]",C06527
+DB00909,Zonisamide,"['N03AX15', 'G01AE10']","[['N03AX', 'N03A', 'N03', 'N'], ['G01AE', 'G01A', 'G01', 'G']]",C07504
+DB00910,Paricalcitol,['H05BX02'],"[['H05BX', 'H05B', 'H05', 'H']]",C08127
+DB00912,Repaglinide,"['A10BD14', 'A10BX02']","[['A10BD', 'A10B', 'A10', 'A'], ['A10BX', 'A10B', 'A10', 'A']]",C07670
+DB00914,Phenformin,"['A10BA01', 'A10BD01']","[['A10BA', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A']]",C07673
+DB00915,Amantadine,['N04BB01'],"[['N04BB', 'N04B', 'N04', 'N']]",C06818
+DB00917,Dinoprostone,['G02AD02'],"[['G02AD', 'G02A', 'G02', 'G']]",C00584
+DB00921,Buprenorphine,"['N07BC01', 'N07BC51', 'N02AE01']","[['N07BC', 'N07B', 'N07', 'N'], ['N07BC', 'N07B', 'N07', 'N'], ['N02AE', 'N02A', 'N02', 'N']]",C08007
+DB00924,Cyclobenzaprine,['M03BX08'],"[['M03BX', 'M03B', 'M03', 'M']]",C06931
+DB00925,Phenoxybenzamine,['C04AX02'],"[['C04AX', 'C04A', 'C04', 'C']]",C07435
+DB00928,Azacitidine,['L01BC07'],"[['L01BC', 'L01B', 'L01', 'L']]",C11262
+DB00933,Mesoridazine,['N05AC03'],"[['N05AC', 'N05A', 'N05', 'N']]",C07143
+DB00934,Maprotiline,['N06AA21'],"[['N06AA', 'N06A', 'N06', 'N']]",C07107
+DB00935,Oxymetazoline,"['S01GA04', 'D11AX27', 'R01AB07', 'R01AA05']","[['S01GA', 'S01G', 'S01', 'S'], ['D11AX', 'D11A', 'D11', 'D'], ['R01AB', 'R01A', 'R01', 'R'], ['R01AA', 'R01A', 'R01', 'R']]",C07363
+DB00936,Salicylic acid,"['D01AE12', 'N02BA04', 'N02BA12', 'S01BC08']","[['D01AE', 'D01A', 'D01', 'D'], ['N02BA', 'N02B', 'N02', 'N'], ['N02BA', 'N02B', 'N02', 'N'], ['S01BC', 'S01B', 'S01', 'S']]",C00805
+DB00937,Diethylpropion,['A08AA03'],"[['A08AA', 'A08A', 'A08', 'A']]",C06954
+DB00938,Salmeterol,"['R03AK06', 'R03AK12', 'R03AC12']","[['R03AK', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R'], ['R03AC', 'R03A', 'R03', 'R']]",C07241
+DB00939,Meclofenamic acid,"['M01AG04', 'M02AA18']","[['M01AG', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M']]",C07117
+DB00940,Methantheline,['A03AB07'],"[['A03AB', 'A03A', 'A03', 'A']]",C07849
+DB00945,Acetylsalicylic acid,"['B01AC06', 'C07FX04', 'C10BX04', 'M01BA03', 'N02BA71', 'C10BX02', 'B01AC56', 'N02AJ07', 'N02AJ02', 'N02BA01', 'C10BX05', 'N02BA51', 'A01AD05', 'C10BX01', 'C07FX03', 'N02AJ18', 'C10BX12', 'C10BX08', 'C10BX06', 'C07FX02']","[['B01AC', 'B01A', 'B01', 'B'], ['C07FX', 'C07F', 'C07', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['M01BA', 'M01B', 'M01', 'M'], ['N02BA', 'N02B', 'N02', 'N'], ['C10BX', 'C10B', 'C10', 'C'], ['B01AC', 'B01A', 'B01', 'B'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02BA', 'N02B', 'N02', 'N'], ['C10BX', 'C10B', 'C10', 'C'], ['N02BA', 'N02B', 'N02', 'N'], ['A01AD', 'A01A', 'A01', 'A'], ['C10BX', 'C10B', 'C10', 'C'], ['C07FX', 'C07F', 'C07', 'C'], ['N02AJ', 'N02A', 'N02', 'N'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C07FX', 'C07F', 'C07', 'C']]",C01405
+DB00949,Felbamate,['N03AX10'],"[['N03AX', 'N03A', 'N03', 'N']]",C07501
+DB00950,Fexofenadine,['R06AX26'],"[['R06AX', 'R06A', 'R06', 'R']]",C06999
+DB00951,Isoniazid,"['J04AM04', 'J04AM01', 'J04AM03', 'J04AM02', 'J04AC01', 'J04AM06', 'J04AM05', 'J04AM07', 'J04AM08', 'J04AC51']","[['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AC', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AC', 'J04A', 'J04', 'J']]",C07054
+DB00952,Naratriptan,['N02CC02'],"[['N02CC', 'N02C', 'N02', 'N']]",C07792
+DB00956,Hydrocodone,['R05DA03'],"[['R05DA', 'R05D', 'R05', 'R']]",C08024
+DB00960,Pindolol,"['C07CA03', 'C07AA03']","[['C07CA', 'C07C', 'C07', 'C'], ['C07AA', 'C07A', 'C07', 'C']]",C07445
+DB00961,Mepivacaine,"['N01BB53', 'N01BB03']","[['N01BB', 'N01B', 'N01', 'N'], ['N01BB', 'N01B', 'N01', 'N']]",C07528
+DB00962,Zaleplon,['N05CF03'],"[['N05CF', 'N05C', 'N05', 'N']]",C07484
+DB00964,Apraclonidine,['S01EA03'],"[['S01EA', 'S01E', 'S01', 'S']]",C07668
+DB00966,Telmisartan,"['C09DB04', 'C09CA07', 'C09DX08', 'C09DA07']","[['C09DB', 'C09D', 'C09', 'C'], ['C09CA', 'C09C', 'C09', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C09DA', 'C09D', 'C09', 'C']]",C07710
+DB00968,Methyldopa,['C02AB01'],"[['C02AB', 'C02A', 'C02', 'C']]",C07194
+DB00970,Dactinomycin,['L01DA01'],"[['L01DA', 'L01D', 'L01', 'L']]",C06770
+DB00972,Azelastine,"['R06AX19', 'S01GX07', 'R01AC03']","[['R06AX', 'R06A', 'R06', 'R'], ['S01GX', 'S01G', 'S01', 'S'], ['R01AC', 'R01A', 'R01', 'R']]",C07768
+DB00977,Ethinylestradiol,"['G03AA15', 'G03AA11', 'L02AA03', 'G03AA12', 'G03AA16', 'G03AB02', 'G03CA01', 'G03AA03', 'G03AA10', 'G03AB04', 'G03AB01', 'G03AB07', 'G03AA13', 'G03AA06', 'G03AA08', 'G03AA02', 'G03AA04', 'G03AA09', 'G03AB09', 'G03AA07', 'G03AB03', 'G03AA05', 'G03AB05', 'G03AB06', 'G03AA01']","[['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['L02AA', 'L02A', 'L02', 'L'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03CA', 'G03C', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AB', 'G03A', 'G03', 'G'], ['G03AA', 'G03A', 'G03', 'G']]",C07534
+DB00978,Lomefloxacin,"['S01AE04', 'J01MA07']","[['S01AE', 'S01A', 'S01', 'S'], ['J01MA', 'J01M', 'J01', 'J']]",C07078
+DB00979,Cyclopentolate,"['S01FA54', 'S01FA04']","[['S01FA', 'S01F', 'S01', 'S'], ['S01FA', 'S01F', 'S01', 'S']]",C06932
+DB00981,Physostigmine,"['S01EB05', 'V03AB19']","[['S01EB', 'S01E', 'S01', 'S'], ['V03AB', 'V03A', 'V03', 'V']]",C06535
+DB00983,Formoterol,"['R03AL09', 'R03AL05', 'R03AK09', 'R03AL10', 'R03CC15', 'R03AL11', 'R03AL07', 'R03AK08', 'R03AC13', 'R03AK07', 'R03AK11']","[['R03AL', 'R03A', 'R03', 'R'], ['R03AL', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R'], ['R03AL', 'R03A', 'R03', 'R'], ['R03CC', 'R03C', 'R03', 'R'], ['R03AL', 'R03A', 'R03', 'R'], ['R03AL', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R'], ['R03AC', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R']]",C07805
+DB00987,Cytarabine,"['L01BC01', 'L01XY01']","[['L01BC', 'L01B', 'L01', 'L'], ['L01XY', 'L01X', 'L01', 'L']]",C02961
+DB00988,Dopamine,['C01CA04'],"[['C01CA', 'C01C', 'C01', 'C']]",C03758
+DB00989,Rivastigmine,['N06DA03'],"[['N06DA', 'N06D', 'N06', 'N']]",C11766
+DB00990,Exemestane,['L02BG06'],"[['L02BG', 'L02B', 'L02', 'L']]",C08162
+DB00991,Oxaprozin,['M01AE12'],"[['M01AE', 'M01A', 'M01', 'M']]",C07356
+DB00993,Azathioprine,['L04AX01'],"[['L04AX', 'L04A', 'L04', 'L']]",C06837
+DB00994,Neomycin,"['A07AA51', 'R02AB01', 'J01GB05', 'D06AX04', 'S03AA01', 'A01AB08', 'A07AA01', 'S02AA07', 'B05CA09', 'S01AA03']","[['A07AA', 'A07A', 'A07', 'A'], ['R02AB', 'R02A', 'R02', 'R'], ['J01GB', 'J01G', 'J01', 'J'], ['D06AX', 'D06A', 'D06', 'D'], ['S03AA', 'S03A', 'S03', 'S'], ['A01AB', 'A01A', 'A01', 'A'], ['A07AA', 'A07A', 'A07', 'A'], ['S02AA', 'S02A', 'S02', 'S'], ['B05CA', 'B05C', 'B05', 'B'], ['S01AA', 'S01A', 'S01', 'S']]",C00384
+DB00997,Doxorubicin,['L01DB01'],"[['L01DB', 'L01D', 'L01', 'L']]",C01661
+DB00999,Hydrochlorothiazide,"['C09BX03', 'C03AX01', 'C03AB03', 'C09DX03', 'C03EA01', 'C09DX06', 'C09XA52', 'G01AE10', 'C09DX01', 'C03AA03', 'C09XA54', 'C09DX08', 'C09DX07']","[['C09BX', 'C09B', 'C09', 'C'], ['C03AX', 'C03A', 'C03', 'C'], ['C03AB', 'C03A', 'C03', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C03EA', 'C03E', 'C03', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C09XA', 'C09X', 'C09', 'C'], ['G01AE', 'G01A', 'G01', 'G'], ['C09DX', 'C09D', 'C09', 'C'], ['C03AA', 'C03A', 'C03', 'C'], ['C09XA', 'C09X', 'C09', 'C'], ['C09DX', 'C09D', 'C09', 'C'], ['C09DX', 'C09D', 'C09', 'C']]",C07041
+DB01002,Levobupivacaine,['N01BB10'],"[['N01BB', 'N01B', 'N01', 'N']]",C07887
+DB01003,Cromoglicic acid,"['R03AK05', 'R03AK04', 'R03BC01', 'R01AC51', 'S01GX51', 'R01AC01', 'S01GX01', 'D11AH03', 'A07EB01']","[['R03AK', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R'], ['R03BC', 'R03B', 'R03', 'R'], ['R01AC', 'R01A', 'R01', 'R'], ['S01GX', 'S01G', 'S01', 'S'], ['R01AC', 'R01A', 'R01', 'R'], ['S01GX', 'S01G', 'S01', 'S'], ['D11AH', 'D11A', 'D11', 'D'], ['A07EB', 'A07E', 'A07', 'A']]",C06928
+DB01005,Hydroxyurea,['L01XX05'],"[['L01XX', 'L01X', 'L01', 'L']]",C07044
+DB01006,Letrozole,['L02BG04'],"[['L02BG', 'L02B', 'L02', 'L']]",C08163
+DB01007,Tioconazole,"['G01AF20', 'D01AC07', 'G01AF08']","[['G01AF', 'G01A', 'G01', 'G'], ['D01AC', 'D01A', 'D01', 'D'], ['G01AF', 'G01A', 'G01', 'G']]",C08082
+DB01008,Busulfan,['L01AB01'],"[['L01AB', 'L01A', 'L01', 'L']]",C06862
+DB01009,Ketoprofen,"['M01AE03', 'M02AA10', 'M01AE53']","[['M01AE', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M'], ['M01AE', 'M01A', 'M01', 'M']]",C01716
+DB01010,Edrophonium,['V04CX07'],"[['V04CX', 'V04C', 'V04', 'V']]",C06976
+DB01011,Metyrapone,['V04CD01'],"[['V04CD', 'V04C', 'V04', 'V']]",C07205
+DB01016,Glyburide,['A10BB01'],"[['A10BB', 'A10B', 'A10', 'A']]",C07022
+DB01017,Minocycline,"['D10AF07', 'J01AA08', 'J01AA20', 'A01AB23']","[['D10AF', 'D10A', 'D10', 'D'], ['J01AA', 'J01A', 'J01', 'J'], ['J01AA', 'J01A', 'J01', 'J'], ['A01AB', 'A01A', 'A01', 'A']]",C07225
+DB01018,Guanfacine,['C02AC02'],"[['C02AC', 'C02A', 'C02', 'C']]",C07037
+DB01019,Bethanechol,['N07AB02'],"[['N07AB', 'N07A', 'N07', 'N']]",C06850
+DB01020,Isosorbide mononitrate,['C01DA14'],"[['C01DA', 'C01D', 'C01', 'C']]",C07714
+DB01021,Trichlormethiazide,"['G01AE10', 'C03AA06', 'C03EA02', 'C03AB06']","[['G01AE', 'G01A', 'G01', 'G'], ['C03AA', 'C03A', 'C03', 'C'], ['C03EA', 'C03E', 'C03', 'C'], ['C03AB', 'C03A', 'C03', 'C']]",C07767
+DB01022,Phylloquinone,['B02BA01'],"[['B02BA', 'B02B', 'B02', 'B']]",C02059
+DB01028,Methoxyflurane,['N02BG09'],"[['N02BG', 'N02B', 'N02', 'N']]",C07517
+DB01029,Irbesartan,"['C09CA04', 'C09DB05', 'C09DA04', 'C09DX07']","[['C09CA', 'C09C', 'C09', 'C'], ['C09DB', 'C09D', 'C09', 'C'], ['C09DA', 'C09D', 'C09', 'C'], ['C09DX', 'C09D', 'C09', 'C']]",C07469
+DB01030,Topotecan,['L01CE01'],"[['L01CE', 'L01C', 'L01', 'L']]",C11158
+DB01032,Probenecid,"['M04AB01', 'G01AE10']","[['M04AB', 'M04A', 'M04', 'M'], ['G01AE', 'G01A', 'G01', 'G']]",C07372
+DB01033,Mercaptopurine,"['L01BB02', 'R03DA20']","[['L01BB', 'L01B', 'L01', 'L'], ['R03DA', 'R03D', 'R03', 'R']]",C02380
+DB01035,Procainamide,['C01BA02'],"[['C01BA', 'C01B', 'C01', 'C']]",C07401
+DB01036,Tolterodine,['G04BD07'],"[['G04BD', 'G04B', 'G04', 'G']]",C07750
+DB01037,Selegiline,['N04BD01'],"[['N04BD', 'N04B', 'N04', 'N']]",C07245
+DB01039,Fenofibrate,"['C10BA03', 'C10BA12', 'C10AB05', 'C10BA09', 'C10BA04']","[['C10BA', 'C10B', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C'], ['C10AB', 'C10A', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C'], ['C10BA', 'C10B', 'C10', 'C']]",C07586
+DB01041,Thalidomide,['L04AX02'],"[['L04AX', 'L04A', 'L04', 'L']]",C07910
+DB01042,Melphalan,['L01AA03'],"[['L01AA', 'L01A', 'L01', 'L']]",C07122
+DB01043,Memantine,"['N06DA52', 'N06DX01', 'N06DA53']","[['N06DA', 'N06D', 'N06', 'N'], ['N06DX', 'N06D', 'N06', 'N'], ['N06DA', 'N06D', 'N06', 'N']]",C13736
+DB01045,Rifampicin,"['J04BA50', 'J04AM02', 'J04BA51', 'J04AB02', 'J04AM06', 'J04AM05', 'J04AM07']","[['J04BA', 'J04B', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04BA', 'J04B', 'J04', 'J'], ['J04AB', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J'], ['J04AM', 'J04A', 'J04', 'J']]",C06688
+DB01046,Lubiprostone,['A06AX03'],"[['A06AX', 'A06A', 'A06', 'A']]",C13707
+DB01048,Abacavir,"['J05AR13', 'J05AR02', 'J05AR04', 'J05AF06']","[['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AR', 'J05A', 'J05', 'J'], ['J05AF', 'J05A', 'J05', 'J']]",C07624
+DB01050,Ibuprofen,"['G02CC01', 'C01EB16', 'M01AE01', 'M02AA13', 'R02AX02', 'N02AJ08', 'N02AJ19', 'M01AE51']","[['G02CC', 'G02C', 'G02', 'G'], ['C01EB', 'C01E', 'C01', 'C'], ['M01AE', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M'], ['R02AX', 'R02A', 'R02', 'R'], ['N02AJ', 'N02A', 'N02', 'N'], ['N02AJ', 'N02A', 'N02', 'N'], ['M01AE', 'M01A', 'M01', 'M']]",C01588
+DB01053,Benzylpenicillin,"['J01CR50', 'J01CE01', 'S01AA14', 'J01CE08']","[['J01CR', 'J01C', 'J01', 'J'], ['J01CE', 'J01C', 'J01', 'J'], ['S01AA', 'S01A', 'S01', 'S'], ['J01CE', 'J01C', 'J01', 'J']]",C05551
+DB01054,Nitrendipine,"['C08CA08', 'C09BB06']","[['C08CA', 'C08C', 'C08', 'C'], ['C09BB', 'C09B', 'C09', 'C']]",C07713
+DB01056,Tocainide,['C01BB03'],"[['C01BB', 'C01B', 'C01', 'C']]",C07142
+DB01057,Echothiophate,['S01EB03'],"[['S01EB', 'S01E', 'S01', 'S']]",C06975
+DB01059,Norfloxacin,"['J01RA14', 'J01RA13', 'S01AE02', 'J01MA06']","[['J01RA', 'J01R', 'J01', 'J'], ['J01RA', 'J01R', 'J01', 'J'], ['S01AE', 'S01A', 'S01', 'S'], ['J01MA', 'J01M', 'J01', 'J']]",C06687
+DB01062,Oxybutynin,['G04BD04'],"[['G04BD', 'G04B', 'G04', 'G']]",C07360
+DB01063,Acetophenazine,['N05AB07'],"[['N05AB', 'N05A', 'N05', 'N']]",C06807
+DB01064,Isoprenaline,"['C01CA02', 'R03AK02', 'R03AB02', 'R03CB01', 'R03CB51']","[['C01CA', 'C01C', 'C01', 'C'], ['R03AK', 'R03A', 'R03', 'R'], ['R03AB', 'R03A', 'R03', 'R'], ['R03CB', 'R03C', 'R03', 'R'], ['R03CB', 'R03C', 'R03', 'R']]",C07056
+DB01065,Melatonin,['N05CH01'],"[['N05CH', 'N05C', 'N05', 'N']]",C01598
+DB01069,Promethazine,"['R06AD52', 'D04AA10', 'V03AB05', 'R06AD02']","[['R06AD', 'R06A', 'R06', 'R'], ['D04AA', 'D04A', 'D04', 'D'], ['V03AB', 'V03A', 'V03', 'V'], ['R06AD', 'R06A', 'R06', 'R']]",C07404
+DB01070,Dihydrotachysterol,['A11CC02'],"[['A11CC', 'A11C', 'A11', 'A']]",C06957
+DB01071,Mequitazine,['R06AD07'],"[['R06AD', 'R06A', 'R06', 'R']]",C12755
+DB01075,Diphenhydramine,"['D04AA32', 'R06AA02', 'D04AA33', 'R06AA52']","[['D04AA', 'D04A', 'D04', 'D'], ['R06AA', 'R06A', 'R06', 'R'], ['D04AA', 'D04A', 'D04', 'D'], ['R06AA', 'R06A', 'R06', 'R']]",C06960
+DB01076,Atorvastatin,"['C10BA05', 'C10BX11', 'C10BX12', 'C10BX19', 'C10BX18', 'C10AA05', 'C10BX15', 'C10BX03', 'C10BX08', 'C10BX06']","[['C10BA', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10AA', 'C10A', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C'], ['C10BX', 'C10B', 'C10', 'C']]",C06834
+DB01077,Etidronic acid,"['M05BB01', 'M05BA01']","[['M05BB', 'M05B', 'M05', 'M'], ['M05BA', 'M05B', 'M05', 'M']]",C07736
+DB01080,Vigabatrin,['N03AG04'],"[['N03AG', 'N03A', 'N03', 'N']]",C07500
+DB01081,Diphenoxylate,['A07DA01'],"[['A07DA', 'A07D', 'A07', 'A']]",C07872
+DB01082,Streptomycin,"['J04AM01', 'J01GA01', 'A07AA54', 'A07AA04']","[['J04AM', 'J04A', 'J04', 'J'], ['J01GA', 'J01G', 'J01', 'J'], ['A07AA', 'A07A', 'A07', 'A'], ['A07AA', 'A07A', 'A07', 'A']]",C00413
+DB01084,Emedastine,['S01GX06'],"[['S01GX', 'S01G', 'S01', 'S']]",C07785
+DB01085,Pilocarpine,"['N07AX01', 'S01EB01', 'S01EB51']","[['N07AX', 'N07A', 'N07', 'N'], ['S01EB', 'S01E', 'S01', 'S'], ['S01EB', 'S01E', 'S01', 'S']]",C07474
+DB01086,Benzocaine,"['C05AD03', 'R02AD01', 'D04AB04', 'N01BA05']","[['C05AD', 'C05A', 'C05', 'C'], ['R02AD', 'R02A', 'R02', 'R'], ['D04AB', 'D04A', 'D04', 'D'], ['N01BA', 'N01B', 'N01', 'N']]",C07527
+DB01087,Primaquine,['P01BA03'],"[['P01BA', 'P01B', 'P01', 'P']]",C07627
+DB01089,Deserpidine,"['C02LA03', 'C02AA05']","[['C02LA', 'C02L', 'C02', 'C'], ['C02AA', 'C02A', 'C02', 'C']]",C06541
+DB01091,Butenafine,['D01AE23'],"[['D01AE', 'D01A', 'D01', 'D']]",C08067
+DB01092,Ouabain,['C01AC01'],"[['C01AC', 'C01A', 'C01', 'C']]",C01443
+DB01093,Dimethyl sulfoxide,"['M02AX03', 'G04BX13']","[['M02AX', 'M02A', 'M02', 'M'], ['G04BX', 'G04B', 'G04', 'G']]",C11143
+DB01095,Fluvastatin,['C10AA04'],"[['C10AA', 'C10A', 'C10', 'C']]",C07014
+DB01096,Oxamniquine,['P02BA02'],"[['P02BA', 'P02B', 'P02', 'P']]",C07341
+DB01097,Leflunomide,['L04AA13'],"[['L04AA', 'L04A', 'L04', 'L']]",C07905
+DB01100,Pimozide,['N05AG02'],"[['N05AG', 'N05A', 'N05', 'N']]",C07566
+DB01101,Capecitabine,['L01BC06'],"[['L01BC', 'L01B', 'L01', 'L']]",C12650
+DB01103,Quinacrine,['P01AX05'],"[['P01AX', 'P01A', 'P01', 'P']]",C07339
+DB01104,Sertraline,['N06AB06'],"[['N06AB', 'N06A', 'N06', 'N']]",C07246
+DB01105,Sibutramine,['A08AA10'],"[['A08AA', 'A08A', 'A08', 'A']]",C07247
+DB01108,Trilostane,['H02CA01'],"[['H02CA', 'H02C', 'H02', 'H']]",C12580
+DB01109,Heparin,"['B01AB51', 'C05BA03', 'S01XA14', 'C05BA53', 'B01AB01']","[['B01AB', 'B01A', 'B01', 'B'], ['C05BA', 'C05B', 'C05', 'C'], ['S01XA', 'S01X', 'S01', 'S'], ['C05BA', 'C05B', 'C05', 'C'], ['B01AB', 'B01A', 'B01', 'B']]",C00374
+DB01110,Miconazole,"['A07AC01', 'J02AB01', 'D01AC52', 'G01AF20', 'A01AB09', 'D01AC02', 'S02AA13', 'G01AF04']","[['A07AC', 'A07A', 'A07', 'A'], ['J02AB', 'J02A', 'J02', 'J'], ['D01AC', 'D01A', 'D01', 'D'], ['G01AF', 'G01A', 'G01', 'G'], ['A01AB', 'A01A', 'A01', 'A'], ['D01AC', 'D01A', 'D01', 'D'], ['S02AA', 'S02A', 'S02', 'S'], ['G01AF', 'G01A', 'G01', 'G']]",C08070
+DB01113,Papaverine,"['G04BE02', 'A03AD01', 'G04BE52']","[['G04BE', 'G04B', 'G04', 'G'], ['A03AD', 'A03A', 'A03', 'A'], ['G04BE', 'G04B', 'G04', 'G']]",C06533
+DB01114,Chlorpheniramine,"['R06AB54', 'R06AB04']","[['R06AB', 'R06A', 'R06', 'R'], ['R06AB', 'R06A', 'R06', 'R']]",C06905
+DB01115,Nifedipine,"['C08CA55', 'C08GA01', 'C08CA05', 'C07FB03']","[['C08CA', 'C08C', 'C08', 'C'], ['C08GA', 'C08G', 'C08', 'C'], ['C08CA', 'C08C', 'C08', 'C'], ['C07FB', 'C07F', 'C07', 'C']]",C07266
+DB01116,Trimethaphan,['C02BA01'],"[['C02BA', 'C02B', 'C02', 'C']]",C07174
+DB01117,Atovaquone,"['P01AX06', 'P01BB51']","[['P01AX', 'P01A', 'P01', 'P'], ['P01BB', 'P01B', 'P01', 'P']]",C06835
+DB01118,Amiodarone,['C01BD01'],"[['C01BD', 'C01B', 'C01', 'C']]",C06823
+DB01119,Diazoxide,"['G01AE10', 'C02DA01', 'V03AH01']","[['G01AE', 'G01A', 'G01', 'G'], ['C02DA', 'C02D', 'C02', 'C'], ['V03AH', 'V03A', 'V03', 'V']]",C06949
+DB01121,Phenacemide,['N03AX07'],"[['N03AX', 'N03A', 'N03', 'N']]",C07428
+DB01122,Ambenonium,['N07AA30'],"[['N07AA', 'N07A', 'N07', 'N']]",C07773
+DB01124,Tolbutamide,"['V04CA01', 'A10BB03', 'G01AE10']","[['V04CA', 'V04C', 'V04', 'V'], ['A10BB', 'A10B', 'A10', 'A'], ['G01AE', 'G01A', 'G01', 'G']]",C07148
+DB01127,Econazole,"['G01AF05', 'D01AC03', 'G01AF20', 'G01AF55']","[['G01AF', 'G01A', 'G01', 'G'], ['D01AC', 'D01A', 'D01', 'D'], ['G01AF', 'G01A', 'G01', 'G'], ['G01AF', 'G01A', 'G01', 'G']]",C08068
+DB01128,Bicalutamide,"['L02BB03', 'L02AE51']","[['L02BB', 'L02B', 'L02', 'L'], ['L02AE', 'L02A', 'L02', 'L']]",C08160
+DB01129,Rabeprazole,"['A02BD12', 'A02BD13', 'A02BC54', 'M01AA05', 'A02BC04', 'M02AA03']","[['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BC', 'A02B', 'A02', 'A'], ['M01AA', 'M01A', 'M01', 'M'], ['A02BC', 'A02B', 'A02', 'A'], ['M02AA', 'M02A', 'M02', 'M']]",C07864
+DB01131,Proguanil,"['P01BB01', 'P01BB51', 'P01BB52']","[['P01BB', 'P01B', 'P01', 'P'], ['P01BB', 'P01B', 'P01', 'P'], ['P01BB', 'P01B', 'P01', 'P']]",C07631
+DB01132,Pioglitazone,"['A10BD09', 'A10BG03', 'A10BD05', 'A10BD06', 'A10BD12']","[['A10BD', 'A10B', 'A10', 'A'], ['A10BG', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A'], ['A10BD', 'A10B', 'A10', 'A']]",C07675
+DB01133,Tiludronic acid,['M05BA05'],"[['M05BA', 'M05B', 'M05', 'M']]",C08141
+DB01135,Doxacurium,['M03AC07'],"[['M03AC', 'M03A', 'M03', 'M']]",C07549
+DB01136,Carvedilol,"['C07AG02', 'C07FX06']","[['C07AG', 'C07A', 'C07', 'C'], ['C07FX', 'C07F', 'C07', 'C']]",C06875
+DB01138,Sulfinpyrazone,['M04AB02'],"[['M04AB', 'M04A', 'M04', 'M']]",C07317
+DB01142,Doxepin,"['N06AA12', 'D04AX01']","[['N06AA', 'N06A', 'N06', 'N'], ['D04AX', 'D04A', 'D04', 'D']]",C06971
+DB01143,Amifostine,['V03AF05'],"[['V03AF', 'V03A', 'V03', 'V']]",C06819
+DB01144,Diclofenamide,"['G01AE10', 'S01EC02']","[['G01AE', 'G01A', 'G01', 'G'], ['S01EC', 'S01E', 'S01', 'S']]",C07459
+DB01148,Flavoxate,['G04BD02'],"[['G04BD', 'G04B', 'G04', 'G']]",C07809
+DB01149,Nefazodone,['N06AX06'],"[['N06AX', 'N06A', 'N06', 'N']]",C07256
+DB01151,Desipramine,['N06AA01'],"[['N06AA', 'N06A', 'N06', 'N']]",C06943
+DB01154,Thiamylal,['N05CB01'],"[['N05CB', 'N05C', 'N05', 'N']]",C07846
+DB01156,Bupropion,"['A08AA62', 'N06AX12']","[['A08AA', 'A08A', 'A08', 'A'], ['N06AX', 'N06A', 'N06', 'N']]",C06860
+DB01157,Trimetrexate,['P01AX07'],"[['P01AX', 'P01A', 'P01', 'P']]",C11154
+DB01158,Bretylium,['C01BD02'],"[['C01BD', 'C01B', 'C01', 'C']]",C06855
+DB01159,Halothane,['N01AB01'],"[['N01AB', 'N01A', 'N01', 'N']]",C07515
+DB01161,Chloroprocaine,['N01BA04'],"[['N01BA', 'N01B', 'N01', 'N']]",C07877
+DB01162,Terazosin,['G04CA03'],"[['G04CA', 'G04C', 'G04', 'G']]",C07127
+DB01164,Calcium chloride,"['A12AA07', 'A11GB01', 'G04BA03', 'B05XA07']","[['A12AA', 'A12A', 'A12', 'A'], ['A11GB', 'A11G', 'A11', 'A'], ['G04BA', 'G04B', 'G04', 'G'], ['B05XA', 'B05X', 'B05', 'B']]",C08130
+DB01165,Ofloxacin,"['J01MA01', 'J01RA09', 'S01AE01', 'S02AA16']","[['J01MA', 'J01M', 'J01', 'J'], ['J01RA', 'J01R', 'J01', 'J'], ['S01AE', 'S01A', 'S01', 'S'], ['S02AA', 'S02A', 'S02', 'S']]",C07321
+DB01168,Procarbazine,['L01XB01'],"[['L01XB', 'L01X', 'L01', 'L']]",C07402
+DB01170,Guanethidine,"['S01EX01', 'C02CC02', 'C02LF01']","[['S01EX', 'S01E', 'S01', 'S'], ['C02CC', 'C02C', 'C02', 'C'], ['C02LF', 'C02L', 'C02', 'C']]",C07036
+DB01173,Orphenadrine,"['M03BC51', 'N04AB02', 'M03BC01']","[['M03BC', 'M03B', 'M03', 'M'], ['N04AB', 'N04A', 'N04', 'N'], ['M03BC', 'M03B', 'M03', 'M']]",C07935
+DB01174,Phenobarbital,"['N05CB01', 'N03AA02']","[['N05CB', 'N05C', 'N05', 'N'], ['N03AA', 'N03A', 'N03', 'N']]",C07434
+DB01176,Cyclizine,"['R06AE03', 'R06AE53']","[['R06AE', 'R06A', 'R06', 'R'], ['R06AE', 'R06A', 'R06', 'R']]",C06930
+DB01179,Podofilox,['D06BB04'],"[['D06BB', 'D06B', 'D06', 'D']]",C10874
+DB01180,Rescinnamine,"['C02LA52', 'C02LA02', 'C02AA01']","[['C02LA', 'C02L', 'C02', 'C'], ['C02LA', 'C02L', 'C02', 'C'], ['C02AA', 'C02A', 'C02', 'C']]",C06540
+DB01181,Ifosfamide,['L01AA06'],"[['L01AA', 'L01A', 'L01', 'L']]",C07047
+DB01182,Propafenone,['C01BC03'],"[['C01BC', 'C01B', 'C01', 'C']]",C07381
+DB01183,Naloxone,"['A06AH04', 'N02AA53', 'V03AB15', 'N02AA55', 'N02AX51']","[['A06AH', 'A06A', 'A06', 'A'], ['N02AA', 'N02A', 'N02', 'N'], ['V03AB', 'V03A', 'V03', 'V'], ['N02AA', 'N02A', 'N02', 'N'], ['N02AX', 'N02A', 'N02', 'N']]",C07252
+DB01186,Pergolide,['N04BC02'],"[['N04BC', 'N04B', 'N04', 'N']]",C07425
+DB01189,Desflurane,['N01AB07'],"[['N01AB', 'N01A', 'N01', 'N']]",C07519
+DB01192,Oxymorphone,['N02AA11'],"[['N02AA', 'N02A', 'N02', 'N']]",C08019
+DB01193,Acebutolol,"['C07AB04', 'C07BB04']","[['C07AB', 'C07A', 'C07', 'C'], ['C07BB', 'C07B', 'C07', 'C']]",C06803
+DB01194,Brinzolamide,"['S01EC54', 'S01EC04', 'G01AE10']","[['S01EC', 'S01E', 'S01', 'S'], ['S01EC', 'S01E', 'S01', 'S'], ['G01AE', 'G01A', 'G01', 'G']]",C07760
+DB01195,Flecainide,['C01BC04'],"[['C01BC', 'C01B', 'C01', 'C']]",C07001
+DB01196,Estramustine,['L01XX11'],"[['L01XX', 'L01X', 'L01', 'L']]",C11228
+DB01199,Tubocurarine,['M03AA02'],"[['M03AA', 'M03A', 'M03', 'M']]",C07547
+DB01200,Bromocriptine,"['N04BC01', 'G02CB01']","[['N04BC', 'N04B', 'N04', 'N'], ['G02CB', 'G02C', 'G02', 'G']]",C06856
+DB01202,Levetiracetam,['N03AX14'],"[['N03AX', 'N03A', 'N03', 'N']]",C07841
+DB01204,Mitoxantrone,['L01DB07'],"[['L01DB', 'L01D', 'L01', 'L']]",C11195
+DB01205,Flumazenil,['V03AB25'],"[['V03AB', 'V03A', 'V03', 'V']]",C07825
+DB01206,Lomustine,['L01AD02'],"[['L01AD', 'L01A', 'L01', 'L']]",C07079
+DB01208,Sparfloxacin,['J01MA09'],"[['J01MA', 'J01M', 'J01', 'J']]",C07662
+DB01209,Dezocine,['N02AX03'],"[['N02AX', 'N02A', 'N02', 'N']]",C08010
+DB01210,Levobunolol,['S01ED03'],"[['S01ED', 'S01E', 'S01', 'S']]",C07914
+DB01211,Clarithromycin,"['A02BD12', 'A02BD14', 'A02BD07', 'A02BD04', 'A02BD09', 'A02BD05', 'J01FA09', 'A02BD06', 'A02BD11']","[['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A'], ['J01FA', 'J01F', 'J01', 'J'], ['A02BD', 'A02B', 'A02', 'A'], ['A02BD', 'A02B', 'A02', 'A']]",C06912
+DB01212,Ceftriaxone,"['J01DD04', 'J01DD54']","[['J01DD', 'J01D', 'J01', 'J'], ['J01DD', 'J01D', 'J01', 'J']]",C06683
+DB01213,Fomepizole,['V03AB34'],"[['V03AB', 'V03A', 'V03', 'V']]",C07837
+DB01214,Metipranolol,"['S01ED54', 'C07BA68', 'S01ED04']","[['S01ED', 'S01E', 'S01', 'S'], ['C07BA', 'C07B', 'C07', 'C'], ['S01ED', 'S01E', 'S01', 'S']]",C07915
+DB01215,Estazolam,['N05CD04'],"[['N05CD', 'N05C', 'N05', 'N']]",C06981
+DB01217,Anastrozole,['L02BG03'],"[['L02BG', 'L02B', 'L02', 'L']]",C08159
+DB01218,Halofantrine,['P01BX01'],"[['P01BX', 'P01B', 'P01', 'P']]",C07634
+DB01219,Dantrolene,['M03CA01'],"[['M03CA', 'M03C', 'M03', 'M']]",C06939
+DB01221,Ketamine,['N01AX03'],"[['N01AX', 'N01A', 'N01', 'N']]",C07525
+DB01224,Quetiapine,['N05AH04'],"[['N05AH', 'N05A', 'N05', 'N']]",C07397
+DB01226,Mivacurium,['M03AC10'],"[['M03AC', 'M03A', 'M03', 'M']]",C07550
+DB01227,Levacetylmethadol,['N07BC03'],"[['N07BC', 'N07B', 'N07', 'N']]",C08012
+DB01228,Encainide,['C01BC08'],"[['C01BC', 'C01B', 'C01', 'C']]",C06978
+DB01229,Paclitaxel,"['L01CD01', 'L01CD51']","[['L01CD', 'L01C', 'L01', 'L'], ['L01CD', 'L01C', 'L01', 'L']]",C07394
+DB01233,Metoclopramide,['A03FA01'],"[['A03FA', 'A03F', 'A03', 'A']]",C07868
+DB01234,Dexamethasone,"['R01AD53', 'D07XB05', 'R01AD03', 'D10AA03', 'S01CB01', 'S02CA06', 'S03CA01', 'C05AA09', 'S01CA01', 'D07CB04', 'H02AB02', 'S01BA01', 'A01AC02', 'S03BA01', 'D07AB19', 'S02BA06']","[['R01AD', 'R01A', 'R01', 'R'], ['D07XB', 'D07X', 'D07', 'D'], ['R01AD', 'R01A', 'R01', 'R'], ['D10AA', 'D10A', 'D10', 'D'], ['S01CB', 'S01C', 'S01', 'S'], ['S02CA', 'S02C', 'S02', 'S'], ['S03CA', 'S03C', 'S03', 'S'], ['C05AA', 'C05A', 'C05', 'C'], ['S01CA', 'S01C', 'S01', 'S'], ['D07CB', 'D07C', 'D07', 'D'], ['H02AB', 'H02A', 'H02', 'H'], ['S01BA', 'S01B', 'S01', 'S'], ['A01AC', 'A01A', 'A01', 'A'], ['S03BA', 'S03B', 'S03', 'S'], ['D07AB', 'D07A', 'D07', 'D'], ['S02BA', 'S02B', 'S02', 'S']]",C15643
+DB01235,Levodopa,"['N04BA03', 'N04BA01', 'N04BA02']","[['N04BA', 'N04B', 'N04', 'N'], ['N04BA', 'N04B', 'N04', 'N'], ['N04BA', 'N04B', 'N04', 'N']]",C00355
+DB01236,Sevoflurane,['N01AB08'],"[['N01AB', 'N01A', 'N01', 'N']]",C07520
+DB01238,Aripiprazole,['N05AX12'],"[['N05AX', 'N05A', 'N05', 'N']]",C12564
+DB01239,Chlorprothixene,['N05AF03'],"[['N05AF', 'N05A', 'N05', 'N']]",C07953
+DB01240,Epoprostenol,['B01AC09'],"[['B01AC', 'B01A', 'B01', 'B']]",C01312
+DB01241,Gemfibrozil,['C10AB04'],"[['C10AB', 'C10A', 'C10', 'C']]",C07020
+DB01242,Clomipramine,['N06AA04'],"[['N06AA', 'N06A', 'N06', 'N']]",C06918
+DB01244,Bepridil,['C08EA02'],"[['C08EA', 'C08E', 'C08', 'C']]",C06847
+DB01246,Alimemazine,['R06AD01'],"[['R06AD', 'R06A', 'R06', 'R']]",C07172
+DB01248,Docetaxel,['L01CD02'],"[['L01CD', 'L01C', 'L01', 'L']]",C11231
+DB01250,Olsalazine,['A07EC03'],"[['A07EC', 'A07E', 'A07', 'A']]",C07323
+DB01253,Ergometrine,['G02AB03'],"[['G02AB', 'G02A', 'G02', 'G']]",C07543
+DB01275,Hydralazine,"['C02DB02', 'C02LG02']","[['C02DB', 'C02D', 'C02', 'C'], ['C02LG', 'C02L', 'C02', 'C']]",C07040
+DB01291,Pirbuterol,"['R03CC07', 'R03AC08']","[['R03CC', 'R03C', 'R03', 'R'], ['R03AC', 'R03A', 'R03', 'R']]",C07807
+DB01296,Glucosamine,['M01AX05'],"[['M01AX', 'M01A', 'M01', 'M']]",C00329
+DB01297,Practolol,['C07AB01'],"[['C07AB', 'C07A', 'C07', 'C']]",C11696
+DB01320,Fosphenytoin,['N03AB05'],"[['N03AB', 'N03A', 'N03', 'N']]",C07840
+DB01324,Polythiazide,"['C03AA05', 'G01AE10', 'C03AB05']","[['C03AA', 'C03A', 'C03', 'C'], ['G01AE', 'G01A', 'G01', 'G'], ['C03AB', 'C03A', 'C03', 'C']]",C07766
+DB01325,Quinethazone,"['G01AE10', 'C03BA02', 'C03BB02']","[['G01AE', 'G01A', 'G01', 'G'], ['C03BA', 'C03B', 'C03', 'C'], ['C03BB', 'C03B', 'C03', 'C']]",C07342
+DB01327,Cefazolin,['J01DB04'],"[['J01DB', 'J01D', 'J01', 'J']]",C06880
+DB01337,Pancuronium,['M03AC01'],"[['M03AC', 'M03A', 'M03', 'M']]",C07551
+DB01338,Pipecuronium,['M03AC06'],"[['M03AC', 'M03A', 'M03', 'M']]",C07554
+DB01339,Vecuronium,['M03AC03'],"[['M03AC', 'M03A', 'M03', 'M']]",C07553
+DB01351,Amobarbital,"['N05CA02', 'N05CB01']","[['N05CA', 'N05C', 'N05', 'N'], ['N05CB', 'N05C', 'N05', 'N']]",C07536
+DB01352,Aprobarbital,['N05CA05'],"[['N05CA', 'N05C', 'N05', 'N']]",C07826
+DB01354,Heptabarbital,['N05CA11'],"[['N05CA', 'N05C', 'N05', 'N']]",C17725
+DB01355,Hexobarbital,"['N01AF02', 'N05CA16']","[['N01AF', 'N01A', 'N01', 'N'], ['N05CA', 'N05C', 'N05', 'N']]",C11723
+DB01359,Penbutolol,"['C07CA23', 'C07AA23']","[['C07CA', 'C07C', 'C07', 'C'], ['C07AA', 'C07A', 'C07', 'C']]",C07416
+DB01364,Ephedrine,"['S01FB02', 'R01AB05', 'C01CA26', 'R03CA02', 'A08AA56', 'R01AA03']","[['S01FB', 'S01F', 'S01', 'S'], ['R01AB', 'R01A', 'R01', 'R'], ['C01CA', 'C01C', 'C01', 'C'], ['R03CA', 'R03C', 'R03', 'R'], ['A08AA', 'A08A', 'A08', 'A'], ['R01AA', 'R01A', 'R01', 'R']]",C01575
+DB01365,Mephentermine,['C01CA11'],"[['C01CA', 'C01C', 'C01', 'C']]",C07889
+DB01373,Calcium,"['M05BB01', 'A11AA02', 'M05BB08', 'A11GB01', 'M05BB02', 'M05BB04', 'M05BB05']","[['M05BB', 'M05B', 'M05', 'M'], ['A11AA', 'A11A', 'A11', 'A'], ['M05BB', 'M05B', 'M05', 'M'], ['A11GB', 'A11G', 'A11', 'A'], ['M05BB', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M'], ['M05BB', 'M05B', 'M05', 'M']]",C00076
+DB01384,Paramethasone,['H02AB05'],"[['H02AB', 'H02A', 'H02', 'H']]",C07413
+DB01388,Mibefradil,['C08CX01'],"[['C08CX', 'C08C', 'C08', 'C']]",C07222
+DB01392,Yohimbine,['G04BE04'],"[['G04BE', 'G04B', 'G04', 'G']]",C09256
+DB01394,Colchicine,['M04AC01'],"[['M04AC', 'M04A', 'M04', 'M']]",C07592
+DB01396,Digitoxin,['C01AA04'],"[['C01AA', 'C01A', 'C01', 'C']]",C06955
+DB01400,Neostigmine,"['N07AA01', 'S01EB06', 'N07AA51']","[['N07AA', 'N07A', 'N07', 'N'], ['S01EB', 'S01E', 'S01', 'S'], ['N07AA', 'N07A', 'N07', 'N']]",C07258
+DB01403,Methotrimeprazine,['N05AA02'],"[['N05AA', 'N05A', 'N05', 'N']]",C07192
+DB01412,Theobromine,"['C03BD01', 'R03DA07', 'R03DA57']","[['C03BD', 'C03B', 'C03', 'C'], ['R03DA', 'R03D', 'R03', 'R'], ['R03DA', 'R03D', 'R03', 'R']]",C07480
+DB01421,Paromomycin,['A07AA06'],"[['A07AA', 'A07A', 'A07', 'A']]",C00832
+DB01426,Ajmaline,['C01BA05'],"[['C01BA', 'C01B', 'C01', 'C']]",C06542
+DB01431,Allylestrenol,['G03DC01'],"[['G03DC', 'G03D', 'G03', 'G']]",C12811
+DB01435,Antipyrine,"['N02BB51', 'N02BB71', 'N02BB01', 'S02DA03']","[['N02BB', 'N02B', 'N02', 'N'], ['N02BB', 'N02B', 'N02', 'N'], ['N02BB', 'N02B', 'N02', 'N'], ['S02DA', 'S02D', 'S02', 'S']]",C13244
+DB01437,Glutethimide,['N05CE01'],"[['N05CE', 'N05C', 'N05', 'N']]",C07489
+DB01438,Phenazopyridine,['G04BX06'],"[['G04BX', 'G04B', 'G04', 'G']]",C07429
+DB01452,Diamorphine,['N07BC06'],"[['N07BC', 'N07B', 'N07', 'N']]",C06534
+DB01466,Ethylmorphine,"['S01XA06', 'R05DA01']","[['S01XA', 'S01X', 'S01', 'S'], ['R05DA', 'R05D', 'R05', 'R']]",C07537
+DB01483,Barbital,['N05CA04'],"[['N05CA', 'N05C', 'N05', 'N']]",C02517
+DB01576,Dextroamphetamine,['N06BA02'],"[['N06BA', 'N06B', 'N06', 'N']]",C07884
+DB01577,Metamfetamine,['N06BA03'],"[['N06BA', 'N06B', 'N06', 'N']]",C07164
+DB01586,Ursodeoxycholic acid,['A05AA02'],"[['A05AA', 'A05A', 'A05', 'A']]",C07880
+DB01588,Prazepam,['N05BA11'],"[['N05BA', 'N05B', 'N05', 'N']]",C07366
+DB01589,Quazepam,['N05CD10'],"[['N05CD', 'N05C', 'N05', 'N']]",C07336
+DB01592,Iron,"['B03AE02', 'A11AA01', 'B03AE01', 'B03AE04', 'B03AE03']","[['B03AE', 'B03A', 'B03', 'B'], ['A11AA', 'A11A', 'A11', 'A'], ['B03AE', 'B03A', 'B03', 'B'], ['B03AE', 'B03A', 'B03', 'B'], ['B03AE', 'B03A', 'B03', 'B']]",C00023
+DB01593,Zinc,['C05AX04'],"[['C05AX', 'C05A', 'C05', 'C']]",C00038
+DB01595,Nitrazepam,['N05CD02'],"[['N05CD', 'N05C', 'N05', 'N']]",C07487
+DB01597,Cilastatin,"['J01DH51', 'J01DH56']","[['J01DH', 'J01D', 'J01', 'J'], ['J01DH', 'J01D', 'J01', 'J']]",C01675
+DB01599,Probucol,['C10AX02'],"[['C10AX', 'C10A', 'C10', 'C']]",C07373
+DB01611,Hydroxychloroquine,['P01BA02'],"[['P01BA', 'P01B', 'P01', 'P']]",C07043
+DB01612,Amyl Nitrite,['V03AB22'],"[['V03AB', 'V03A', 'V03', 'V']]",C07457
+DB01618,Molindone,['N05AE02'],"[['N05AE', 'N05A', 'N05', 'N']]",C07230
+DB01619,Phenindamine,['R06AX04'],"[['R06AX', 'R06A', 'R06', 'R']]",C07790
+DB01625,Isopropamide,"['A03CA01', 'A03AB09']","[['A03CA', 'A03C', 'A03', 'A'], ['A03AB', 'A03A', 'A03', 'A']]",C07055
+DB01626,Pargyline,"['C02LL01', 'C02KC01']","[['C02LL', 'C02L', 'C02', 'C'], ['C02KC', 'C02K', 'C02', 'C']]",C07414
+DB01628,Etoricoxib,['M01AH05'],"[['M01AH', 'M01A', 'M01', 'M']]",C11718
+DB01677,Fumaric acid,['D05AX01'],"[['D05AX', 'D05A', 'D05', 'D']]",C00122
+DB01698,Rutin,"['C05CA51', 'C05CA01']","[['C05CA', 'C05C', 'C05', 'C'], ['C05CA', 'C05C', 'C05', 'C']]",C05625
+DB01708,Prasterone,"['G03EA03', 'G03XX01', 'A14AA07']","[['G03EA', 'G03E', 'G03', 'G'], ['G03XX', 'G03X', 'G03', 'G'], ['A14AA', 'A14A', 'A14', 'A']]",C01227
+DB01744,Camphor,['C01EB02'],"[['C01EB', 'C01E', 'C01', 'C']]",C00808
+DB02266,Flufenamic acid,['M01AG03'],"[['M01AG', 'M01A', 'M01', 'M']]",C13038
+DB02383,Tolrestat,['A10XA01'],"[['A10XA', 'A10X', 'A10', 'A']]",C01621
+DB02640,Fumagillin,['P01AX10'],"[['P01AX', 'P01A', 'P01', 'P']]",C09668
+DB02659,Cholic Acid,['A05AA03'],"[['A05AA', 'A05A', 'A05', 'A']]",C00695
+DB02701,Nicotinamide,['A11HA01'],"[['A11HA', 'A11H', 'A11', 'A']]",C00153
+DB02901,Stanolone,"['A14AA01', 'G03BB02']","[['A14AA', 'A14A', 'A14', 'A'], ['G03BB', 'G03B', 'G03', 'G']]",C03917
+DB03088,Pidolic acid,['A12CC08'],"[['A12CC', 'A12C', 'A12', 'A']]",C01879
+DB03128,Acetylcholine,['S01EB09'],"[['S01EB', 'S01E', 'S01', 'S']]",C01996
+DB03175,Propyl alcohol,"['D08AX03', 'D08AX53']","[['D08AX', 'D08A', 'D08', 'D'], ['D08AX', 'D08A', 'D08', 'D']]",C05979
+DB03255,Phenol,"['C05BB05', 'R02AA19', 'N01BX03', 'D08AE03']","[['C05BB', 'C05B', 'C05', 'C'], ['R02AA', 'R02A', 'R02', 'R'], ['N01BX', 'N01B', 'N01', 'N'], ['D08AE', 'D08A', 'D08', 'D']]",C15584
+DB03585,Oxyphenbutazone,"['M01AA03', 'M02AA04', 'S01BC02']","[['M01AA', 'M01A', 'M01', 'M'], ['M02AA', 'M02A', 'M02', 'M'], ['S01BC', 'S01B', 'S01', 'S']]",C19494
+DB03614,Mecobalamin,['B03BA05'],"[['B03BA', 'B03B', 'B03', 'B']]",C06453
+DB03615,Ribostamycin,['J01GB10'],"[['J01GB', 'J01G', 'J01', 'J']]",C01759
+DB03619,Deoxycholic acid,['D11AX24'],"[['D11AX', 'D11A', 'D11', 'D']]",C04483
+DB03754,Tromethamine,"['B05XX02', 'B05BB03']","[['B05XX', 'B05X', 'B05', 'B'], ['B05BB', 'B05B', 'B05', 'B']]",C07182
+DB03766,Propanoic acid,['S01AX10'],"[['S01AX', 'S01A', 'S01', 'S']]",C00163
+DB03783,Phenacetin,"['N02BE73', 'N02BE03', 'N02BE53']","[['N02BE', 'N02B', 'N02', 'N'], ['N02BE', 'N02B', 'N02', 'N'], ['N02BE', 'N02B', 'N02', 'N']]",C07591
+DB03793,Benzoic acid,"['A16AX30', 'A16AX11', 'V04CG30']","[['A16AX', 'A16A', 'A16', 'A'], ['A16AX', 'A16A', 'A16', 'A'], ['V04CG', 'V04C', 'V04', 'V']]",C00539
+DB03904,Urea,"['D02AE01', 'B05BC02', 'D02AE51']","[['D02AE', 'D02A', 'D02', 'D'], ['B05BC', 'B05B', 'B05', 'B'], ['D02AE', 'D02A', 'D02', 'D']]",C00086
+DB04272,Citric acid,['A09AB04'],"[['A09AB', 'A09A', 'A09', 'A']]",C00158
+DB04335,Inosine,"['G01AX02', 'S01XA10', 'D06BB05']","[['G01AX', 'G01A', 'G01', 'G'], ['S01XA', 'S01X', 'S01', 'S'], ['D06BB', 'D06B', 'D06', 'D']]",C00294
+DB04339,Carbocisteine,['R05CB03'],"[['R05CB', 'R05C', 'R05', 'R']]",C03727
+DB04377,Meglutol,['C10AX05'],"[['C10AX', 'C10A', 'C10', 'C']]",C03761
+DB04552,Niflumic acid,"['M02AA17', 'M01AX02']","[['M02AA', 'M02A', 'M02', 'M'], ['M01AX', 'M01A', 'M01', 'M']]",C13698
+DB04571,Trioxsalen,"['D05BA01', 'D05AD01']","[['D05BA', 'D05B', 'D05', 'D'], ['D05AD', 'D05A', 'D05', 'D']]",C09314
+DB04572,Thiotepa,['L01AC01'],"[['L01AC', 'L01A', 'L01', 'L']]",C07641
+DB04573,Estriol,"['G03CC06', 'G03CA04']","[['G03CC', 'G03C', 'G03', 'G'], ['G03CA', 'G03C', 'G03', 'G']]",C05141
+DB04576,Fleroxacin,['J01MA08'],"[['J01MA', 'J01M', 'J01', 'J']]",C13179
+DB04599,Aniracetam,['N06BX11'],"[['N06BX', 'N06B', 'N06', 'N']]",C13355
+DB04630,Aldosterone,['H02AA01'],"[['H02AA', 'H02A', 'H02', 'H']]",C01780
+DB04660,Choline alfoscerate,['N07AX02'],"[['N07AX', 'N07A', 'N07', 'N']]",C00670
+DB04786,Suramin,['P01CX02'],"[['P01CX', 'P01C', 'P01', 'P']]",C07974
+DB04824,Phenolphthalein,['A06AB04'],"[['A06AB', 'A06A', 'A06', 'A']]",C14286
+DB04840,Debrisoquine,['C02CC04'],"[['C02CC', 'C02C', 'C02', 'C']]",C13650
+DB04843,Mepenzolate,['A03AB12'],"[['A03AB', 'A03A', 'A03', 'A']]",C07818
+DB04844,Tetrabenazine,['N07XX06'],"[['N07XX', 'N07X', 'N07', 'N']]",C11168
+DB04930,Permethrin,"['P03AC54', 'P03AC04']","[['P03AC', 'P03A', 'P03', 'P'], ['P03AC', 'P03A', 'P03', 'P']]",C14388
+DB04953,Ezogabine,['N03AX21'],"[['N03AX', 'N03A', 'N03', 'N']]",C13826
+DB04977,Plitidepsin,['L01XX57'],"[['L01XX', 'L01X', 'L01', 'L']]",C16862
+DB05381,Histamine,"['L03AX14', 'V04CG03']","[['L03AX', 'L03A', 'L03', 'L'], ['V04CG', 'V04C', 'V04', 'V']]",C00388
+DB05382,Iodine,['D08AG03'],"[['D08AG', 'D08A', 'D08', 'D']]",C01382
+DB05990,Obeticholic acid,['A05AA04'],"[['A05AA', 'A05A', 'A05', 'A']]",C15636
+DB06144,Sertindole,['N05AE03'],"[['N05AE', 'N05A', 'N05', 'N']]",C07567
+DB06151,Acetylcysteine,"['R05CB01', 'S01XA08', 'V03AB23']","[['R05CB', 'R05C', 'R05', 'R'], ['S01XA', 'S01X', 'S01', 'S'], ['V03AB', 'V03A', 'V03', 'V']]",C06809
+DB06155,Rimonabant,['A08AX01'],"[['A08AX', 'A08A', 'A08', 'A']]",C14319
+DB06174,Noscapine,['R05DA07'],"[['R05DA', 'R05D', 'R05', 'R']]",C09592
+DB06230,Nalmefene,['N07BB05'],"[['N07BB', 'N07B', 'N07', 'N']]",C08027
+DB06233,Ridaforolimus,['L01EG03'],"[['L01EG', 'L01E', 'L01', 'L']]",C15183
+DB06243,Eflornithine,"['P01CX03', 'D11AX16']","[['P01CX', 'P01C', 'P01', 'P'], ['D11AX', 'D11A', 'D11', 'D']]",C07997
+DB06287,Temsirolimus,['L01EG01'],"[['L01EG', 'L01E', 'L01', 'L']]",C15182
+DB06410,Doxercalciferol,['H05BX03'],"[['H05BX', 'H05B', 'H05', 'H']]",C08211
+DB06412,Oxymetholone,['A14AA05'],"[['A14AA', 'A14A', 'A14', 'A']]",C07393
+DB06637,Dalfampridine,['N07XX07'],"[['N07XX', 'N07X', 'N07', 'N']]",C13728
+DB06691,Mepyramine,"['D04AA02', 'R06AC01']","[['D04AA', 'D04A', 'D04', 'D'], ['R06AC', 'R06A', 'R06', 'R']]",C11798
+DB06694,Xylometazoline,"['R01AB06', 'R01AA07', 'S01GA53', 'S01GA03']","[['R01AB', 'R01A', 'R01', 'R'], ['R01AA', 'R01A', 'R01', 'R'], ['S01GA', 'S01G', 'S01', 'S'], ['S01GA', 'S01G', 'S01', 'S']]",C07913
+DB06709,Methacholine,['V04CX03'],"[['V04CX', 'V04C', 'V04', 'V']]",C07471
+DB06710,Methyltestosterone,"['G03BA02', 'G03EA01', 'G03EK01']","[['G03BA', 'G03B', 'G03', 'G'], ['G03EA', 'G03E', 'G03', 'G'], ['G03EK', 'G03E', 'G03', 'G']]",C07198
+DB06715,Potassium Iodide,"['S01XA04', 'V03AB21', 'R05CA02']","[['S01XA', 'S01X', 'S01', 'S'], ['V03AB', 'V03A', 'V03', 'V'], ['R05CA', 'R05C', 'R05', 'R']]",C08219
+DB06718,Stanozolol,['A14AA02'],"[['A14AA', 'A14A', 'A14', 'A']]",C07311
+DB06738,Ketobemidone,"['N02AB01', 'N02AG02']","[['N02AB', 'N02A', 'N02', 'N'], ['N02AG', 'N02A', 'N02', 'N']]",C11792
+DB06755,Beta carotene,"['A11CA02', 'D02BB01']","[['A11CA', 'A11C', 'A11', 'A'], ['D02BB', 'D02B', 'D02', 'D']]",C02094
+DB06756,Betaine,"['A16AA06', 'A09AB02']","[['A16AA', 'A16A', 'A16', 'A'], ['A09AB', 'A09A', 'A09', 'A']]",C00719
+DB06764,Tetryzoline,"['S01GA02', 'S01GA52', 'R01AB03', 'R01AA06']","[['S01GA', 'S01G', 'S01', 'S'], ['S01GA', 'S01G', 'S01', 'S'], ['R01AB', 'R01A', 'R01', 'R'], ['R01AA', 'R01A', 'R01', 'R']]",C07912
+DB06774,Capsaicin,"['M02AB01', 'N01BX04']","[['M02AB', 'M02A', 'M02', 'M'], ['N01BX', 'N01B', 'N01', 'N']]",C06866
+DB06775,Carglumic acid,['A16AA05'],"[['A16AA', 'A16A', 'A16', 'A']]",C05829
+DB06777,Chenodeoxycholic acid,['A05AA01'],"[['A05AA', 'A05A', 'A05', 'A']]",C02528
+DB06781,Difluprednate,['D07AC19'],"[['D07AC', 'D07A', 'D07', 'D']]",C12695
+DB06782,Dimercaprol,['V03AB09'],"[['V03AB', 'V03A', 'V03', 'V']]",C02924
+DB06787,Hexocyclium,['A03AB10'],"[['A03AB', 'A03A', 'A03', 'A']]",C07811
+DB06795,Mafenide,"['G01AE10', 'D06BA03']","[['G01AE', 'G01A', 'G01', 'G'], ['D06BA', 'D06B', 'D06', 'D']]",C07106
+DB06810,Plicamycin,['L01DC02'],"[['L01DC', 'L01D', 'L01', 'L']]",C12389
+DB07637,Dibromotyrosine,['H03BX02'],"[['H03BX', 'H03B', 'H03', 'H']]",C03224
+DB08604,Triclosan,"['D08AE04', 'D09AA06']","[['D08AE', 'D08A', 'D08', 'D'], ['D09AA', 'D09A', 'D09', 'D']]",C12059
+DB08818,Hyaluronic acid,"['S01KA51', 'S01KA01', 'D03AX05', 'M09AX01', 'R01AX09']","[['S01KA', 'S01K', 'S01', 'S'], ['S01KA', 'S01K', 'S01', 'S'], ['D03AX', 'D03A', 'D03', 'D'], ['M09AX', 'M09A', 'M09', 'M'], ['R01AX', 'R01A', 'R01', 'R']]",C00518
+DB08860,Pitavastatin,['C10AA08'],"[['C10AA', 'C10A', 'C10', 'C']]",C13334
+DB08995,Diosmin,"['C05CA03', 'C05CA53']","[['C05CA', 'C05C', 'C05', 'C'], ['C05CA', 'C05C', 'C05', 'C']]",C10039
+DB08996,Dimetacrine,['N06AA18'],"[['N06AA', 'N06A', 'N06', 'N']]",C12959
+DB09061,Cannabidiol,['N03AX24'],"[['N03AX', 'N03A', 'N03', 'N']]",C07578
+DB09085,Tetracaine,"['C05AD02', 'N01BA03', 'D04AB06', 'N01BA53', 'S01HA03']","[['C05AD', 'C05A', 'C05', 'C'], ['N01BA', 'N01B', 'N01', 'N'], ['D04AB', 'D04A', 'D04', 'D'], ['N01BA', 'N01B', 'N01', 'N'], ['S01HA', 'S01H', 'S01', 'S']]",C07526
+DB09093,Chlortetracycline,"['D06AA02', 'S01AA02', 'J01AA03', 'J01AA20', 'A01AB21']","[['D06AA', 'D06A', 'D06', 'D'], ['S01AA', 'S01A', 'S01', 'S'], ['J01AA', 'J01A', 'J01', 'J'], ['J01AA', 'J01A', 'J01', 'J'], ['A01AB', 'A01A', 'A01', 'A']]",C06571
+DB09096,Benzoyl peroxide,"['D10AE01', 'D10AE51']","[['D10AE', 'D10A', 'D10', 'D'], ['D10AE', 'D10A', 'D10', 'D']]",C19346
+DB09112,Nitrous acid,['V03AB08'],"[['V03AB', 'V03A', 'V03', 'V']]",C00088
+DB09116,Calcium carbimide,['N07BB02'],"[['N07BB', 'N07B', 'N07', 'N']]",C19113
+DB09121,Aurothioglucose,['M01CB04'],"[['M01CB', 'M01C', 'M01', 'M']]",C08193
+DB09140,Oxygen,['V03AN01'],"[['V03AN', 'V03A', 'V03', 'V']]",C00007
+DB09203,Synephrine,"['S01GA06', 'S01GA56', 'C01CA08']","[['S01GA', 'S01G', 'S01', 'S'], ['S01GA', 'S01G', 'S01', 'S'], ['C01CA', 'C01C', 'C01', 'C']]",C04548
+DB09220,Nicorandil,['C01DX16'],"[['C01DX', 'C01D', 'C01', 'C']]",C13280
+DB09241,Methylene blue,"['V03AB17', 'V04CG05']","[['V03AB', 'V03A', 'V03', 'V'], ['V04CG', 'V04C', 'V04', 'V']]",C00220
+DB09242,Moxonidine,"['C02AC05', 'C02LC05']","[['C02AC', 'C02A', 'C02', 'C'], ['C02LC', 'C02L', 'C02', 'C']]",C07451
+DB09256,Tegafur,"['L01BC03', 'L01BC53']","[['L01BC', 'L01B', 'L01', 'L'], ['L01BC', 'L01B', 'L01', 'L']]",C12673
+DB09270,Ubidecarenone,['C01EB09'],"[['C01EB', 'C01E', 'C01', 'C']]",C11378
+DB09301,Chondroitin sulfate,['M01AX25'],"[['M01AX', 'M01A', 'M01', 'M']]",C00607
+DB09325,Sodium fluoride,"['A01AA51', 'A01AA01', 'A12CD01']","[['A01AA', 'A01A', 'A01', 'A'], ['A01AA', 'A01A', 'A01', 'A'], ['A12CD', 'A12C', 'A12', 'A']]",C08142
+DB09338,Mersalyl,['C03BC01'],"[['C03BC', 'C03B', 'C03', 'C']]",C11336
+DB09345,Pramocaine,"['D04AB07', 'C05AD07']","[['D04AB', 'D04A', 'D04', 'D'], ['C05AD', 'C05A', 'C05', 'C']]",C07892
+DB09371,Norethynodrel,['G03FA09'],"[['G03FA', 'G03F', 'G03', 'G']]",C14249
+DB09421,Protirelin,['V04CJ02'],"[['V04CJ', 'V04C', 'V04', 'V']]",C03958
+DB09462,Glycerin,"['A06AX01', 'A06AG04']","[['A06AX', 'A06A', 'A06', 'A'], ['A06AG', 'A06A', 'A06', 'A']]",C00116
+DB09472,Sodium sulfate,"['A06AD13', 'A12CA02']","[['A06AD', 'A06A', 'A06', 'A'], ['A12CA', 'A12C', 'A12', 'A']]",C13199
+DB09481,Magnesium carbonate,"['A02AA01', 'V03AE04', 'A06AD01']","[['A02AA', 'A02A', 'A02', 'A'], ['V03AE', 'V03A', 'V03', 'V'], ['A06AD', 'A06A', 'A06', 'A']]",C12893
+DB09526,Hydroquinone,['D11AX11'],"[['D11AX', 'D11A', 'D11', 'D']]",C00530
+DB11071,Phenyl salicylate,['G04BX12'],"[['G04BX', 'G04B', 'G04', 'G']]",C14163
+DB11085,Resorcinol,"['D10AX02', 'S01AX06']","[['D10AX', 'D10A', 'D10', 'D'], ['S01AX', 'S01A', 'S01', 'S']]",C01751
+DB11156,Pyrantel,['P02CC01'],"[['P02CC', 'P02C', 'P02', 'P']]",C07409
+DB11157,Anthralin,"['D05AC01', 'D05AC51']","[['D05AC', 'D05A', 'D05', 'D'], ['D05AC', 'D05A', 'D05', 'D']]",C06831
+DB11181,Homatropine,['S01FA05'],"[['S01FA', 'S01F', 'S01', 'S']]",C07814
+DB11348,Calcium Phosphate,"['A12AA01', 'A11GB01']","[['A12AA', 'A12A', 'A12', 'A'], ['A11GB', 'A11G', 'A11', 'A']]",C08136
+DB11365,Sennosides,"['A06AB56', 'A06AB06']","[['A06AB', 'A06A', 'A06', 'A'], ['A06AB', 'A06A', 'A06', 'A']]",C10404
+DB11588,Carbon monoxide,['V04CX08'],"[['V04CX', 'V04C', 'V04', 'V']]",C00237
+DB11632,Opicapone,['N04BX04'],"[['N04BX', 'N04B', 'N04', 'N']]",C13847
+DB11699,Tropisetron,['A04AA03'],"[['A04AA', 'A04A', 'A04', 'A']]",C13666
+DB11738,Rilmenidine,['C02AC06'],"[['C02AC', 'C02A', 'C02', 'C']]",C11120
+DB11842,Angiotensin II,['C01CX09'],"[['C01CX', 'C01C', 'C01', 'C']]",C02135
+DB11859,Brexanolone,['N06AX29'],"[['N06AX', 'N06A', 'N06', 'N']]",C13712
+DB12278,Propiverine,['G04BD06'],"[['G04BD', 'G04B', 'G04', 'G']]",C07852
+DB12465,Ketanserin,['C02KD01'],"[['C02KD', 'C02K', 'C02', 'C']]",C07464
+DB12532,Oxetacaine,['C05AD06'],"[['C05AD', 'C05A', 'C05', 'C']]",C12552
+DB12789,Dinoprost,['G02AD01'],"[['G02AD', 'G02A', 'G02', 'G']]",C00639
+DB12965,Silver,['D08AL30'],"[['D08AL', 'D08A', 'D08', 'D']]",C06710
+DB13179,Troleandomycin,['J01FA08'],"[['J01FA', 'J01F', 'J01', 'J']]",C12753
+DB13191,Phosphocreatine,['C01EB06'],"[['C01EB', 'C01E', 'C01', 'C']]",C02305
+DB13746,Bioallethrin,"['P03AC52', 'P03AC02']","[['P03AC', 'P03A', 'P03', 'P'], ['P03AC', 'P03A', 'P03', 'P']]",C14337
+DB13751,Glycyrrhizic acid,['A05BA08'],"[['A05BA', 'A05B', 'A05', 'A']]",C02284
+DB13781,Xamoterol,['C01CX07'],"[['C01CX', 'C01C', 'C01', 'C']]",C11775
+DB13800,Calcium levulinate,['A12AA30'],"[['A12AA', 'A12A', 'A12', 'A']]",C18380
+DB13837,Doxefazepam,['N05CD12'],"[['N05CD', 'N05C', 'N05', 'N']]",C19413
+DB13867,Fluticasone,"['R03BA05', 'D07AC17', 'R03AK11', 'R03AK06', 'R01AD08', 'R01AD58']","[['R03BA', 'R03B', 'R03', 'R'], ['D07AC', 'D07A', 'D07', 'D'], ['R03AK', 'R03A', 'R03', 'R'], ['R03AK', 'R03A', 'R03', 'R'], ['R01AD', 'R01A', 'R01', 'R'], ['R01AD', 'R01A', 'R01', 'R']]",C07815
+DB14028,Nordazepam,['N05BA16'],"[['N05BA', 'N05B', 'N05', 'N']]",C07486
+DB14498,Potassium acetate,['B05XA17'],"[['B05XA', 'B05X', 'B05', 'B']]",C12554
+DB14512,Mometasone furoate,"['D07AC13', 'R03BA07', 'D07XC03', 'R01AD09', 'R03AK09']","[['D07AC', 'D07A', 'D07', 'D'], ['R03BA', 'R03B', 'R03', 'R'], ['D07XC', 'D07X', 'D07', 'D'], ['R01AD', 'R01A', 'R01', 'R'], ['R03AK', 'R03A', 'R03', 'R']]",C07817
+DB14543,Hydrocortisone probutate,['D07AB11'],"[['D07AB', 'D07A', 'D07', 'D']]",C13358
+DB14723,Larotrectinib,['L01EX12'],"[['L01EX', 'L01E', 'L01', 'L']]",C06171
+DB15935,Lumasiran,['A16AX18'],"[['A16AX', 'A16A', 'A16', 'A']]",C10212
