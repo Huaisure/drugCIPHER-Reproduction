@@ -35,5 +35,11 @@ with open(output_file, "w") as f:
 
 print(f"Similarity results saved to {output_file}")
 
+concordance_score_cs_list = []
+
+for i in range(len(test)):
+    drugCS_list = similarity_results[i]
+    targets_closeness = get_closeness_lhs()
+    concordance_score_cs_list.append([abs(np.corrcoef(drugTS_list, target_closeness)[0, 1]) for target_closeness in targets_closeness])
 
 # ------------------------------------

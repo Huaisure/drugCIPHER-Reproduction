@@ -6,15 +6,17 @@ import networkx as nx
 from sklearn.model_selection import train_test_split
 from utils import cal_test_ts, cal_test_closeness, shortest_path_length_dict
 
-# df_atc = df[['dg_id', 'dg_name','dg_atc_codes','dg_atc_levels']]
-df_atc = pd.read_csv("data_atc.csv")
-# for rows with same dg_id, keep only one row
-df_atc = df_atc.drop_duplicates(subset="dg_id")
-df_atc = df_atc[df_atc["dg_atc_codes"].apply(lambda x: x != "[]")].reset_index(
-    drop=True
-)
-df_atc["dg_atc_codes"] = df_atc["dg_atc_codes"].apply(lambda x: eval(x))
-df_atc["dg_atc_levels"] = df_atc["dg_atc_levels"].apply(lambda x: eval(x))
+# # df_atc = df[['dg_id', 'dg_name','dg_atc_codes','dg_atc_levels']]
+# df_atc = pd.read_csv("data_atc.csv")
+# # for rows with same dg_id, keep only one row
+# df_atc = df_atc.drop_duplicates(subset="dg_id")
+# df_atc = df_atc[df_atc["dg_atc_codes"].apply(lambda x: x != "[]")].reset_index(
+#     drop=True
+# )
+# df_atc["dg_atc_codes"] = df_atc["dg_atc_codes"].apply(lambda x: eval(x))
+# df_atc["dg_atc_levels"] = df_atc["dg_atc_levels"].apply(lambda x: eval(x))
+
+df = pd.read_csv("kegg/data_with_atc_kegg.csv")
 
 # train test split for df_atc by 8:2
 train, test = train_test_split(df_atc, test_size=0.2, random_state=42)
@@ -36,32 +38,44 @@ targets = list(ppi_net.nodes())
 
 drug_ts_test = cal_test_ts(train, test, counts_dict)
 
-ensp_count = json.load(open("target_ENSP_count.json"))
-ensp = sorted(ensp_count, key=lambda x: ensp_count[x], reverse=True)
-# target = "ENSP00000261707"
+ts_score_list = []
 
-# choose the top 10 targets
-# 这里选择的target为在数据集中出现次数最多的前10个target，为了方便测试
-for i in range(10):
-    target = ensp[i]
-    target_closeness = cal_test_closeness(train, target, ppi_net)
-    score_list = []
-    for j in range(len(test)):
-        drugTS_list = drug_ts_test[i]
-        if np.std(drugTS_list) == 0 or np.std(target_closeness) == 0:
-            score = 0
-        else:
-            score = np.corrcoef(drugTS_list, target_closeness)[0, 1]
-            score = abs(score)
+for j in range(len(test)):
+    drugTS_list = drug_ts_test[i]
+    targets_closeness = get_closeness_lhs()
+    ts_score_list.append([abs(np.corrcoef(drugTS_list, target_closeness)[0, 1]) for target_closeness in targets_closeness])
+    # if np.std(drugTS_list) == 0 or np.std(target_closeness) == 0:
+    #     score = 0
+    # else:
+    #     score = np.corrcoef(drugTS_list, target_closeness)[0, 1]
+    #     score = abs(score)
 
-        score_list.append((score, j))
-    score_list_sorted = sorted(score_list, key=lambda x: x[0], reverse=True)
-    # print the top 10 drugs
-    print("Target: ", target)
-    for i in range(10):
-        print("=====================================")
-        print(f"Drug: {test['dg_name'].iloc[score_list_sorted[i][1]]}")
-        print(f"Score: {score}")
+# ensp_count = json.load(open("target_ENSP_count.json"))
+# ensp = sorted(ensp_count, key=lambda x: ensp_count[x], reverse=True)
+# # target = "ENSP00000261707"
+
+# # choose the top 10 targets
+# # 这里选择的target为在数据集中出现次数最多的前10个target，为了方便测试
+# for i in range(10):
+#     target = ensp[i]
+#     target_closeness = cal_test_closeness(train, target, ppi_net)
+#     score_list = []
+#     for j in range(len(test)):
+#         drugTS_list = drug_ts_test[i]
+#         if np.std(drugTS_list) == 0 or np.std(target_closeness) == 0:
+#             score = 0
+#         else:
+#             score = np.corrcoef(drugTS_list, target_closeness)[0, 1]
+#             score = abs(score)
+
+#         score_list.append((score, j))
+#     score_list_sorted = sorted(score_list, key=lambda x: x[0], reverse=True)
+#     # print the top 10 drugs
+#     print("Target: ", target)
+#     for i in range(10):
+#         print("=====================================")
+#         print(f"Drug: {test['dg_name'].iloc[score_list_sorted[i][1]]}")
+#         print(f"Score: {score}")
 
 # 如果想要测试其他的target，可以将上面的for循环注释掉，然后取消下面的注释，将target改为想要测试的target
 # target = "ENSP00000261707"
