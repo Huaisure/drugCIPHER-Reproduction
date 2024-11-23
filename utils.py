@@ -6,6 +6,8 @@ import os
 import tqdm
 from collections import Counter
 import math
+from rdkit import Chem
+from rdkit.Chem import AllChem
 
 if os.path.exists("shortest_path_length_dict.json"):
     shortest_path_length_dict = json.load(open("shortest_path_length_dict.json"))
@@ -16,6 +18,12 @@ if os.path.exists("data_target_ENSP.json"):
     drug_targets = json.load(open("data_target_ENSP.json"))
 else:
     raise FileNotFoundError("data_target_ENSP.json not found")
+
+protein_to_idx_test = json.load(open("target_drug_relevance/protein_to_idx_test.json"))
+
+target_drug_relevance_matrix = np.load(
+    "target_drug_relevance/target_drug_relevance_matrix.npy"
+)
 
 
 def shortest_path_length(ppi_network, ensp1, ensp2):
@@ -127,6 +135,7 @@ def cal_test_closeness(train, target, ppi):
         json.dump(shortest_path_length_dict, f, indent=2)
     return res
 
+
 # Function to load a molecule from its .mol file and compute fingerprints
 def load_fingerprint(dg_id, mol_dir="./kegg/mol"):
     mol_path = os.path.join(mol_dir, f"{dg_id}.mol")
@@ -134,3 +143,21 @@ def load_fingerprint(dg_id, mol_dir="./kegg/mol"):
     if mol is None:
         raise ValueError(f"Error loading {mol_path}")
     return AllChem.GetMorganFingerprintAsBitVect(mol, radius=2, nBits=2048)
+
+
+def get_target(drug):
+    for d in drug_targets:
+        if d["dg_id"] == drug:
+            return d["target_ENSP"]
+    return []
+
+
+def get_target_drug_relevance(target):
+    thisidx = protein_to_idx_test[target]
+    return target_drug_relevance_matrix[thisidx]
+
+
+def get_relevance_vector_for_drug(drug_id):
+    targets = get_target(drug_id)
+    return np.array([get_target_drug_relevance(t) for t in targets])
+
