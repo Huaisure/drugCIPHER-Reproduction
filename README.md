@@ -1,6 +1,8 @@
-# drugCIPHER-TS
+# drugCIPHER
 
 本仓库为论文  [《Network-Based Relating Pharmacological and Genomic Spaces for Drug Target Identification》](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011764) 的复现项目，实现了论文中的三种计算药物和靶点相关性的方法，分别为drugCIPHER-TS、drugCIPHER-CS、drugCIPHER-MS。
+
+### 项目介绍
 
 该项目中使用到的数据集为 DrugBank、KEGG Compound Dataset 以及 STRING，项目中涉及到的数据以`.csv` 格式存储，一些提前计算好的相关性系数的矩阵以`.npy`格式存储。
 
